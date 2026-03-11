@@ -1,0 +1,650 @@
+[
+  {
+    "id": "8684d90f671db320",
+    "text": "LEVERAGING DIGITAL SYSTEMS TO MOBILIZE HEALTH DONATIONS FOR \nFISTULA TREATMENT: A CASE STUDY BUDADIRI HEALTH CENTER IV, \nEASTERN UGANDA SIRONKO DISTRICT \n\n ALLAN WAMPANDE \nS19/MUC/BSIT/1363 \n\nA PROJECT REPORT SUBMITTED TO THE FACULTY OF ENGINEERING, DESIGN AND \nTECHNOLOGY IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE AWARD \nOF THE DEGREE OF BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY OF \nUGANDA CHRISTIAN UNIVERSITY \nOctober,2025",
+    "page": 1,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.087847"
+  },
+  {
+    "id": "5eac2ab825a47479",
+    "text": "Contents \nDECLARATION ..........................................................................................................................6 \nAPPROVAL ................................................................................ Error! Bookmark not defined. \nDEDICATION ..............................................................................................................................8 \nACKNOWLEDGEMENT ..............................................................................................................9 \nABSTRACT ...............................................................................................................................10 \nJUSTIFICATION OF THE STUDY ............................................................................................11 \nLIMITATIONS OF THE STUDY ................................................................................................12 \nCHAPTER ONE ........................................................................................................................13 \nIntroduction ...............................................................................................................................13 \nBACKGROUND TO THE STUDY. ............................................................................................13 \nproblem statement. .................................................................................................................13 \nmain objective .........................................................................................................................14 \n1.4 Scope ..................................................................................................................................15 \nCHAPTER TOW .......................................................................................................................17 \nLITERATURE REVIEW .............................................................................................................17 \n2.1 HEALTH DONATION SYSTEM ...........................................................................................17 \n TYPES OF HEALTH DONATION SYSTEM. ............................................................................17 \n RELATED SYSTEMS .............................................................................................................19 \nMORE COMPREHENSIVE, WELL INTEGRATED SYSTEM WILL; .........................................24 \n HOW HEALTH DONATION SYSTEM IS TO WORK TO FIGHT FISTULA ...............................26 \n Advantages of Technology Donation Systems ........................................................................30 \nBENEFITS OF HEALTH DONATION SYSTEM ........................................................................38 \n CHALLENGES OF HEALTH DONATION SYSTEM. ................................................................38 \n Comparison of related systems ................................................................................................39 \nChapter Three ...........................................................................................................................41",
+    "page": 2,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.102745"
+  },
+  {
+    "id": "2644bfa5a79dea68",
+    "text": "Research Methodology .............................................................................................................41 \n System Study and Analysis ..................................................................................................41 \nData Collection Techniques ...................................................................................................41 \nenterview .................................................................................................................................41 \nObservation .............................................................................................................................41 \n Questionnaires .......................................................................................................................42 \nData Analysis Methods ...........................................................................................................43 \nSystem Analysis and Design .................................................................................................44 \n System Analysis ....................................................................................................................44 \n System Design .......................................................................................................................44 \nSystem Implementation ..........................................................................................................45 \nImplementation Tools .............................................................................................................45 \nValidation ..................................................................................................................................46 \nChapter Four .............................................................................................................................48 \nSystem Study, Analysis and Design ..........................................................................................48 \nThe study of the Existing System ..............................................................................................48 \nStrength of the existing System .................................................................................................50 \n Weakness of existing System ..................................................................................................50 \nData analysis results .................................................................................................................50 \nThe tabular representation of the challenges associated with the current health donation.........51 \nUser Requirements ...................................................................................................................52 \nFunctional requirements ............................................................................................................53 \nfunctional requirements .............................................................................................................53 \nSystem requirement ..................................................................................................................54 \nHardware Requirements ...........................................................................................................54 \nSoftware Requirements .............................................................................................................55 \nSystem Design ..........................................................................................................................56",
+    "page": 3,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.173207"
+  },
+  {
+    "id": "25df9d0613946811",
+    "text": "Architectural Design for the System ..........................................................................................56 \nProcess Modeling .....................................................................................................................57 \nKey Symbols .............................................................................................................................57 \nData Flow Diagrams (DFD). ......................................................................................................57 \nThe Context Level DFD .............................................................................................................58 \nData Flow Diagrams (DFD). ......................................................................................................58 \nThe Level 1 DFD for the Online Financial Transfer Management System .................................59 \nDescription for the level 1 DFD .................................................................................................59 \nDescription for Processes .........................................................................................................60 \nDescription of Data Stores ........................................................................................................60 \nDescription for External Entities ................................................................................................61 \nIdentification of Entities and their Attributes ...............................................................................61 \nModeling Relationships between Entities ..................................................................................63 \nThe Entity Relationship Diagram ...............................................................................................65 \n Mapping of ERD to Relational Schema ....................................................................................66 \ndonors .......................................................................................................................................66 \n health center ............................................................................................................................66 \n Donation ..................................................................................................................................67 \n patient ......................................................................................................................................67 \n Treatment ................................................................................................................................68 \n appointment .............................................................................................................................68 \n employee .................................................................................................................................69 \n Conclusion ...............................................................................................................................69 \nChapter Five .............................................................................................................................70 \nSystem Implementation, Testing and Validation ........................................................................70 \n System Functions ....................................................................................................................70 \n Functions provided to all users. ................................................................................................70",
+    "page": 4,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.192010"
+  },
+  {
+    "id": "5a57d14c81ce6587",
+    "text": "Functions provided to the donors. ............................................................................................70 \n Functions provided to the employee .........................................................................................70 \n Functions provided to the manager/administrator .....................................................................70 \nSystem map ..............................................................................................................................71 \nSample Screen-shots ................................................................................................................72 \nSystem home page ...................................................................................................................72 \n Administrative view page .........................................................................................................72 \nEmployee\u2019s login page ..............................................................................................................72 \n donor form ...............................................................................................................................73 \ndonation form or donate now .....................................................................................................74 \nvideos, ......................................................................................................................................74 \nSystem Testing and Validation Results .....................................................................................74 \n System Testing Results ...........................................................................................................75 \nConclusion ................................................................................................................................75 \nChapter Six ...............................................................................................................................76 \nSummary, Recommendations, and Conclusion .........................................................................76 \nReferences ..............................................................................................................................77 \nAppendix I: Interview Schedule Sample Questions for Health Donation System .......................77 \nAppendix II: Questionnaires ......................................................................................................78 \nAppendix III: The System Validation Questionnaire ...................................................................80 \nAppendix IV: Pseudo Code .......................................................................................................81",
+    "page": 5,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.436368"
+  },
+  {
+    "id": "87632839ce5dcfdc",
+    "text": "DECLARATION \nI WAMPANDE ALLAN do declare that this project report is my original work done and \nhonestly inform you that this project report is entirely my effort not duplicate and \npresented to Institution of higher learning for any award especially in the field of \ninformation technology. \n\nDate: 16/10/2025 \n\nSignature\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...",
+    "page": 6,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.576332"
+  },
+  {
+    "id": "f1a4bcce1c961f6a",
+    "text": "APPROVAL \nThis is to certify to the best of my knowledge and professional assessment that the piece of work \ntitled \u201cLeveraging Digital Systems to Mobilize Health Donations for Fistula\u201d submitted by \nWampande Allan, with Registration Number S19/MUC/BSIT/1363, to the Department of \nComputing and Technology, has not been duplicated by any other University for the award of a \ndegree. \n\nFaculty Supervisor Signature: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 \nName of Supervisor: Dr. Eilu Emmanuel \nemmanueleilu0@gmail.com \n +256 772687232 \nDate: 16 /10 / 2025",
+    "page": 7,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.613016"
+  },
+  {
+    "id": "9cf469b18de772c9",
+    "text": "DEDICATION \n I dedicate this work to the Almighty God, the giver of wisdom and knowledge, to my \nbeloved parents Mr. Wampande Tom and Mrs. Wampande Annet, my brothers and \nsisters, my uncles and Aunts, grand Mother Nabukonde Joyce, Supervisor and all \nmy Lecturers, friends, course mates and my beautiful wife Kagoya Fatuma thank you \nso much for the fantastic support given to me throughout this research, may the \nAlmighty God bless you in Jesus\u2019 name.",
+    "page": 8,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.643474"
+  },
+  {
+    "id": "d37d3f97c308b4dd",
+    "text": "ACKNOWLEDGEMENT \nI would like to extend my sincere appreciation to the Almighty God for the gift of life and wisdom \nthat has enabled me to complete this proposal successfully. Special thanks go to my supervisor \nfor the guidance, encouragement, and support throughout the development of this project. I am \nalso grateful to the administration and staff of Budadiri Health Center IV for providing the \nnecessary information and cooperation during data collection. Finally, I thank my family, friends, \nand classmates for their continuous encouragement, advice, and moral support.",
+    "page": 9,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.653517"
+  },
+  {
+    "id": "20bd66515aaa1896",
+    "text": "ABSTRACT \nThis research presents the design and implementation of an Online Health Donation System to \nFight Against Fistula at Budadiri Health Center IV in Sironko District, Eastern Uganda. The \nsystem aims to improve resource management, enhance donor engagement, and promote \ntransparency in the treatment of fistula patients. The study used interviews, questionnaires, and \nsystem analysis to gather data. The developed system was tested and validated to ensure user-\nfriendliness, security, and efficiency. Results showed that digitalizing the donation process can \nsignificantly improve healthcare delivery and donor trust. The project contributes to the \ndevelopment of sustainable digital health solutions in rural Uganda.",
+    "page": 10,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.703310"
+  },
+  {
+    "id": "96b3ecb494a13944",
+    "text": "JUSTIFICATION OF THE STUDY \nThis study is justified because many rural health centers in Uganda still rely on manual systems \nfor managing donations, leading to inefficiency, data loss, and lack of transparency. Developing \nan online health donation system will not only help Budadiri Health Center IV manage donations \nbetter but can also serve as a model for other health institutions in the country. The system \nprovides an efficient, secure, and transparent way to manage donations, improving \naccountability and resource utilization.",
+    "page": 11,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.716493"
+  },
+  {
+    "id": "da7fe767e52898d4",
+    "text": "LIMITATIONS OF THE STUDY \nThis study was limited by time and financial constraints, which restricted data collection to one \nhealth center. In addition, internet instability and lack of advanced computer equipment in rural \nareas may affect full system implementation. However, these limitations do not affect the \nreliability or relevance of the study\u2019s findings. The project still provides valuable insights and can \nbe scaled up with further support and resources.",
+    "page": 12,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.747236"
+  },
+  {
+    "id": "bc63e68db6c366de",
+    "text": "CHAPTER ONE \nIntroduction \n Chapter one of this project presents the project the background information to the study \nhighlighting the problem statements, objectives, scope and significance to the study. \n1.1 \nBACKGROUND TO THE STUDY. \nBudadiri Health Center IV is located in Sironko District, Eastern Uganda. Established as a \nmodest health institute, it has experienced significant growth and development over the years. \nInitially started to serve the basic healthcare needs of the community, the center has \nprogressively expanded its services to address a wide range of medical conditions. \nHistorical Overview \nBudadiri Health Center IV began its journey as a small healthcare facility dedicated to providing \nessential medical services to the local population. Over time, through the dedication of its staff \nand the support of the community, the center has evolved into a well-established institution. It \nhas seen remarkable progress in both its infrastructure and the breadth of services offered. \nCurrent Capabilities \nToday, Budadiri Health Center IV is equipped to handle various diseases and medical \nconditions, offering comprehensive care that includes general consultations, emergency \nservices, maternal and child health care, and treatment for common illnesses. The center has \nmade significant strides in improving its medical facilities, training its personnel, and enhancing \npatient care. \n1.1 problem statement. \nDespite these advancements, Budadiri Health Center IV currently faces a significant challenge: \nthe treatment of women suffering from fistula. Fistula is a severe and debilitating condition often \nresulting from childbirth complications. It causes incontinence and can lead to severe social \nstigma and health issues for affected women. \nUnfortunately, the center lacks the specialized facilities and resources required to effectively \ntreat fistula. This gap in their capabilities not only affects the quality of life of the affected women \nbut also puts additional strain on the center's already limited resources.",
+    "page": 13,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.757236"
+  },
+  {
+    "id": "594072d114c9272a",
+    "text": "Due to lack of facilities and enough equipment, the health center gives patients transfer to \ninstitute which is located in Mbale and Soroti District, this incidence has put the lives of \nmany people at risk where by many reports results into death. This made them to start a \nsimple thought of looking for donations from well-wishers, thy were doing manually by using \noral communication and using papers to record the donations from different donors, the \nmanual system has been so tiresome and it has not been helpful in the management of the \ndonations. That is why I came with the idea online health donation system, to help them \nfulfill their goal \n1.2 main objective \nTo develop a comprehensive health donation system aimed at combating fistula at Budadiri \nHealth Center IV in Sironko District, ensuring improved treatment and support for affected \nwomen through efficient management of donations and resources. \nSpecific objectives \n\u2022 \nEnhance Treatment Facilities: \nUse donations to upgrade or acquire specialized medical equipment and facilities necessary for \ndiagnosing and treating fistula, improving patient care and outcomes. \n\u2022 \nSupport Training and Capacity Building: \nFund and organize training programs for healthcare professionals at Budadiri Health Center IV \nto ensure they are equipped with the latest knowledge and skills for effective fistula \nmanagement. \n\u2022 \nIncrease Community Awareness: \nImplement awareness campaigns to educate the local community about fistula, its prevention, \nand available treatment options, reducing stigma and encouraging affected individuals to seek \nhelp. \n\u2022 \nMonitor and Evaluate Impact: \nDevelop mechanisms to track the use of donations, measure the impact on fistula treatment, \nand assess the effectiveness of the health donation system in improving patient outcomes.",
+    "page": 14,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.772141"
+  },
+  {
+    "id": "f88eaadc72722ffd",
+    "text": "\u2022 \nFoster Partnerships and Collaborations: \nBuild relationships with local and international organizations, government agencies, and other \nstakeholders to enhance support for the health donation system and ensure a collaborative \napproach to tackling fistula. \n\u2022 \nEnsure Transparency and Accountability: \nImplement robust procedures for financial management and reporting to ensure transparency \nand accountability in the handling of donations, fostering trust among donors and the \ncommunity. \n\u2022 \nFacilitate Access to Support Services: \nDevelop and maintain a support network for women affected by fistula, including counseling, \nrehabilitation, and social reintegration services, to address the broader needs of patients \nbeyond medical treatment. \n1.4 Scope \n\nThe system design will be used by the health centers (health researcher) and the \npeople in the community, waiting to study the causes of fistula, signs and symptoms, \nresults when the parson is having, solutions to the possible problem in the community or \nUganda and how patients are to get possible treatment and necessary treatment. \nThe system will interact with the researchers in health centers and stake holders in the \ncommunities for example VILLAGE HEALTH TEAM (VHTs). \n1.5 significances of the system \nAwareness: Fistula, especially obstetric fistula, is a devastating condition resulting from \nprolonged obstructed labor without timely medical intervention. It leads to chronic \nincontinence and often social ostracization. Awareness campaigns educate \ncommunities about the causes, prevention, and treatment options for fistula. This helps \nin dispelling myths, reducing stigma, and encouraging affected individuals to seek \nmedical help.",
+    "page": 15,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.828483"
+  },
+  {
+    "id": "940975815ed1b233",
+    "text": "Early Detection and Treatment: Awareness efforts promote early detection of fistula \ncases. Through community education programs and outreach activities, healthcare \nproviders can identify women who may be at risk or already suffering from fistula. Early \nintervention improves the chances of successful treatment and helps prevent further \ncomplications and social isolation. \nAccess to Healthcare: Donation systems, whether in the form of financial \ncontributions, medical supplies, or volunteer services, can significantly enhance access \nto healthcare services for fistula patients. This support can enable health centers to \noffer specialized fistula repair surgeries, post-operative care, rehabilitation services, and \npsychosocial support to affected individuals, especially those from marginalized \ncommunities who may lack financial resources. \nCapacity Building: Donations can also contribute to capacity building initiatives within \nhealth centers. They can fund training programs for healthcare professionals, including \nsurgeons specializing in fistula repair, nurses, and community health workers. By \nstrengthening the healthcare workforce's skills and knowledge, communities can receive \nbetter quality care for fistula prevention, detection, and treatment. \nAdvocacy and Policy Change: The presence of donation systems can also empower \nadvocacy efforts to address systemic issues related to fistula, such as inadequate \nhealthcare infrastructure, lack of skilled personnel, and socioeconomic disparities. By \nleveraging donations and raising awareness, advocates can push for policy changes, \nincreased government funding, and improved healthcare services for fistula prevention \nand treatment.",
+    "page": 16,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.838487"
+  },
+  {
+    "id": "49a09a575bc32dc9",
+    "text": "CHAPTER TWO \nLITERATURE REVIEW \n2.0 INTRODUCTION \n Chapter One presented the background information to the study highlighting the \nobjectives, scope and significance to the study. This chapter is about the literature \nreview of the health donation system to fight fistula in Uganda. \nIt specifies what a health donation system is, what it needs and how it works for its \nenhancement. \n2.1 HEALTH DONATION SYSTEM \nAccording to Singer (2019), a health donation system refers to a structured framework \nwhere individuals or institutions contribute resources such as financial aid, medical \nsupplies, or expertise to support healthcare initiatives aimed at improving health \noutcomes, particularly in underserved or developing regions \n2.2 TYPES OF HEALTH DONATION SYSTEM. \n2.2.1 WHOLE BLOOD DONATION SYSTEM \nAccording to Dr. Paul (2022), the critical role of whole blood donation systems is to \nensure access to safe and sufficient blood supplies for medical treatments, particularly \nin underserved communities. He advocates for structured systems that facilitate regular \ndonations, prioritize safety standards, and integrate blood transfusion services into \ncomprehensive healthcare strategies to save lives and improve health outcomes \nglobally.",
+    "page": 17,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.849186"
+  },
+  {
+    "id": "2b38837bd29af639",
+    "text": "2.2.2 PLATELETS DONATION SYSTEM \nAccording to Klein (2019), a prominent figure in transfusion medicine, has contributed \nsignificantly to defining platelet donation systems. He emphasizes the importance of \nplatelet donations in his work and publications. \n2.3 DONATING \nAccording to MacAskill (2015.) in one of his notable works is the book \"Doing Good \nBetter: How Effective Altruism Can Help You Make a Difference,\" In this book, \nMacAskill discusses how individuals can use evidence and reason to determine the \nmost effective ways to make a positive impact through their donations and charitable \nactions of helping those who are in need. He explores various strategies for choosing \ncauses and organizations that can achieve the greatest good with the resources \ndonated \n2.4 DONATION SYSTEM \nAccording Titmuss(1970), donation systems are not merely economic transactions but \nare deeply rooted in social values, ethics, and the relationships between individuals and \nsociety. He emphasizes that donation involves voluntary giving for the common good, \noften challenging conventional market-based approaches to resource allocation. \n2.4.1 INTERNAL DONATING \n According to Marcel (1925), internal donation are gifts exchanged within a particular \nsocial group or community, and sometime within the country which he refers to as \ninternal donations, typically involve reciprocity and are integral to maintaining social \ncohesion and solidarity within the group. These donations often create and reinforce \nsocial bonds, mutual obligations, and hierarchies within the community",
+    "page": 18,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.859248"
+  },
+  {
+    "id": "b2cb49dbc746750d",
+    "text": "2.4.2 EXTERNAL DONATING \nAccording to Marcel (1925), external donations are gifts given to individuals or groups \noutside of one's immediate social circle or community and sometime it refers to the gifts \nor support got from outside the group or the country. These gifts serve various \npurposes, such as establishing alliances, negotiating relationships with neighboring \ngroups or communities, and demonstrating wealth or prestige. External donations can \nbe strategic and may influence political, economic, or social dynamics beyond the \nimmediate community. \n2.5. DONATION MANAGEMENT SYSTEM. \nAccording to Gorsegner (2017), tools for fundraising and management are designed to \nstreamline the process of accepting, processing, and acknowledging donations. They \noften include features for donor management, fundraising campaigns, online donation \nprocessing, and reporting. Effective donation management systems are crucial for \nnonprofit organizations to efficiently handle contributions, maintain donor relationships, \nand ensure transparency in financial transactions. Such systems typically include \ndatabases to store donor information, payment processing integrations for receiving \ndonations online, communication tools for thanking donors, and reporting capabilities to \ntrack fundraising efforts and financial performance. \n2.6.0 RELATED SYSTEMS \n2. 6 .1 DONORPERFEC \nAccording softerWare (1985) states that DonorPerfect is comprehensive fundraising \nand donor management software designed for nonprofit organizations. It offers features \nfor donor tracking, online fundraising, event management, and reporting. DonorPerfect \nis known for its user-friendly interface and customizable options to suit various \nfundraising needs.",
+    "page": 19,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.887780"
+  },
+  {
+    "id": "01d193cb99fa6569",
+    "text": ". However, this performs the following tasks. \n\u2022 Donor Management \n\u2022 Online Fundraising \n\u2022 Campaign Management: \n\u2022 Reporting and Analytics: \n\u2022 Communication Tools \n\u2022 Event Management: \n\n\u2022 Donor Management: Maintains comprehensive donor profiles with contact \ninformation, giving history, and preferences. \n\u2022 Online Fundraising: Provides tools for creating and managing online donation \nforms for one-time and recurring donations. \n\u2022 Campaign Management: Enables organizations to plan, execute, and track \nfundraising campaigns with goals, progress monitoring, and reporting. \n\u2022 Reporting and Analytics: Generates reports on donations received, donor \ndemographics, campaign effectiveness, and financial summaries. \n\u2022 Integration Capabilities: Integrates with other software systems such as CRM, \naccounting software, and email marketing platforms for streamlined data \nmanagement. \n\u2022 Communication Tools: Facilitates communication with donors through \npersonalized messaging, thank-you notes, and updates on campaigns. \n Event Management: Manages events such as fundraising galas, auctions, and \ncommunity gatherings with attendee tracking and donation processing. The above will",
+    "page": 20,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.905541"
+  },
+  {
+    "id": "36223d6b0587686f",
+    "text": "meet the function of donaperfect system however the event management has the \nfollowing activities to the system; \n\u2022 Event Planning: DonorPerfect allows nonprofits to plan events such as \nfundraising galas, auctions, walkathons, and other types of events aimed at \nengaging donors or raising funds. \nRegistration and Ticketing: Nonprofits can use DonorPerfect to handle event \nregistrations, ticket sales, and attendee management. This includes tracking RSVPs, \nmanaging attendee lists, and issuing tickets. \nCommunication and Promotion: The software enables nonprofits to promote events \nby sending out invitations, reminders, and updates to donors and supporters through \nintegrated communication tools. \nDonor Engagement: Events managed through DonorPerfect can be used strategically \nto engage donors and build relationships. The software may include features for \ncapturing attendee information and interactions during events. \nFundraising Integration: Events can be seamlessly integrated with fundraising efforts. \nDonorPerfect allows nonprofits to link events with donation campaigns, peer-to-peer \nfundraising, and other fundraising initiatives. \n\n2.6.1.2 DISADVANTAGES OF DONORPERFECT SYSTEM. \n\u2022 High Initial Costs, there is Software Licensing and Subscription Fees which \nmakes costs of acquiring and maintaining an event management system can be \nhigh, particularly for smaller organizations or infrequent event organizers. \nAdditional expenses may be needed for compatible hardware, servers, and other \ninfrastructure. \n\u2022 Customization and Flexibility Limitations, this system may not offer all the \nfeatures needed for unique or highly specific event requirements, necessitating \nadditional customization or workarounds.",
+    "page": 21,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:48.923739"
+  },
+  {
+    "id": "ea89fca0481b4dbf",
+    "text": "\u2022 Data Security and Privacy Concerns. There is a risk in storing sensitive \nattendee data in a centralized system increases the risk of data breaches and \ncyber-attacks. It\u2019s also hard to ensure compliance with data protection \nregulations (like GDPR) can be challenging, especially if the system is used for \ninternational events. \n\u2022 Dependence on Internet Connectivity, many event management systems are \ncloud-based and require reliable internet access, which can be a problem in \nareas with poor connectivity. \n\u2022 Ongoing Maintenance and Upgrades, Keeping the software updated and \nmaintaining the system can require continuous effort and investment. This makes \nit to be updated regularly and organizations may become dependent on the \nsoftware vendor for support and updates, which can lead to potential issues if the \nvendor changes their policies or ceases operations. \n\u2022 Scalability Issues. Some systems may not scale well for larger events or \nmultiple concurrent events, leading to performance issues. A cost of scaling up \nthe capacity of the system to handle larger events often incurs additional costs. \nIn conclusion \nDonorPerfect has emerged as a robust and comprehensive solution for nonprofit \norganizations seeking to enhance their donor management and fundraising capabilities. \nThe platform offers a wide range of features that streamline the entire donor lifecycle, \nfrom acquisition to retention and reporting. With its user-friendly interface, customizable \noptions, and powerful analytics, DonorPerfect not only simplifies donor management but \nalso provides invaluable insights that can drive more effective and personalized donor \nengagement strategies.",
+    "page": 22,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.043987"
+  },
+  {
+    "id": "d8f0f62d56d4a9c8",
+    "text": "2.6.2 NETWORK FOR GOOD YEAR: \nAccording to Network for Good (2001), Network for Good provides a suite of online \nfundraising tools and donation processing services for nonprofits. It includes features \nsuch as donor management, peer-to-peer fundraising, and email marketing, and \nreporting. Network for Good aims to simplify the fundraising process and help nonprofits \nmaximize their impact through effective donor engagement \n2.6.3 HOW NETWORK FOR GOOD YEAR WORKS \n\n\u2022 Donation Processing: Nonprofits can set up donation pages through Network \nfor Good's platform. Donors can securely donate online using credit/debit cards, \nPayPal, or other payment methods. Network for Good processes these donations \nand disburses funds to the nonprofit. \n\u2022 Fundraising Pages: Organizations can create customized fundraising pages \ntailored to specific campaigns or events. These pages include branding \nelements, campaign details, and donation options to encourage supporter \nengagement. \n\u2022 Donor Management: Network for Good offers tools to manage donor \nrelationships. Nonprofits can track donor information, donation history, and \ncommunication preferences to nurture long-term relationships. \n\u2022 Reporting and Analytics: The platform provides reporting capabilities to \nanalyze fundraising performance. Nonprofits can generate reports on donation \ntrends, campaign effectiveness, and financial insights to make informed \ndecisions. \n\u2022 Integration: Network for Good integrates works with various nonprofit \nmanagement software and CRM systems to streamline data synchronization and \nworkflow efficiency.",
+    "page": 23,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.066386"
+  },
+  {
+    "id": "763331eeeed63f72",
+    "text": "\u2022 Security and Compliance: Network for Good ensures security of donor data \nand compliance with payment industry standards (PCI-DSS) to protect sensitive \ninformation. \n\u2022 Support and Resources: Nonprofits receive support through customer service, \ntraining resources, and best practices to optimize fundraising efforts and use the \nplatform effectively. \n2.6.1.2 MORE COMPREHENSIVE, WELL INTEGRATED SYSTEM WILL; \n\n\u2022 Donor Management: This involves maintaining donor profiles, tracking their \ngiving history, communication preferences, and contact information. \n\u2022 Online Donation Forms: User-friendly forms on your website or through email \ncampaigns that allow donors to easily make donations and specify their \npreferences (one-time, recurring, specific campaigns). \n\u2022 Payment Processing: Integration with secure payment gateways to handle \nfinancial transactions securely, supporting various payment methods (credit/debit \ncards, PayPal, etc.). \n\u2022 Campaign Management: Tools to create, manage, and track fundraising \ncampaigns, including setting goals, monitoring progress, and reporting on \noutcomes. \n\u2022 Reporting and Analytics: Generating reports on donations received, donor \ndemographics, campaign performance, and financial summaries for transparency \nand decision-making. \n\u2022 Communication Tools: Integration with email marketing platforms or built-in \ntools for sending thank-you messages, updates on campaigns, and newsletters \nto donors.",
+    "page": 24,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.089347"
+  },
+  {
+    "id": "91f0ebda1541fd27",
+    "text": "DISADVANTAGES OF NETWORK FOR GOOD YEAR SYSTEM \n\u2022 Service Fees: Platforms like Network for Good may charge fees for processing \ndonations or using their services, which can impact the amount of funds \nnonprofits receive. \n\u2022 Dependence on Technology: Nonprofits relying on Network for Good or similar \nplatforms may face disruptions due to technical issues, internet outages, or \nchanges in platform policies. \n\u2022 Data Security Concerns: Handling donor information and financial transactions \nthrough third-party platforms raises concerns about data security and privacy \ncompliance. \n\u2022 Customization Limitations: Nonprofits may have limited flexibility in \ncustomizing donation pages or integrating with their existing systems to meet \nspecific organizational needs. \n\u2022 Donor Relationships: Direct donor relationships can be impacted when \ndonations are processed through a third-party platform, potentially reducing \ndirect engagement opportunities. \n\u2022 Competing with Other Nonprofits: Platforms like Network for Good host \nmultiple nonprofits, leading to competition for donor attention and potentially \nreducing visibility for smaller organizations. \nIn conclusion \nNetwork for Good helps nonprofits raise money and manage donations easily. It uses \nonline tools to run fundraising campaigns and connect with donors effectively. However, \nnonprofits should be aware of fees, reliance on technology, and difficulties in \nmaintaining direct donor relationships. Despite these challenges, Network for Good \nshows how technology can improve fundraising and help nonprofits achieve their goals \nin the community.",
+    "page": 25,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.107112"
+  },
+  {
+    "id": "3145a0e1c81e50a9",
+    "text": "2.7 HOW HEALTH DONATION SYSTEM IS TO WORK TO FIGHT FISTULA \n\u2022 Donor Outreach: Organizations dedicated to fighting fistula reach out to \npotential donors through various channels, such as online campaigns, social \nmedia, events, and partnerships with other organizations. \n\u2022 Education and Awareness: Donors are educated about obstetric fistula, its \ncauses, consequences, and the impact it has on women's lives. This awareness \nhelps motivate individuals to contribute to the cause. \n\u2022 Fundraising: Donors can contribute financially through various means, including \none-time donations, monthly pledges, fundraising events, corporate \nsponsorships, and grants from foundations or governments. \n\u2022 Medical Services: The donated funds are used to provide medical services to \nwomen suffering from obstetric fistula. This includes surgical interventions to \nrepair the injury, post-operative care, rehabilitation, and reintegration programs. \n\u2022 Capacity Building: Some donations may be allocated to training healthcare \nproviders in fistula repair surgery and prevention, as well as improving healthcare \ninfrastructure in areas where fistula prevalence is high. \n\u2022 Monitoring and Evaluation: Organizations ensure transparency and \naccountability by regularly monitoring the use of donated funds and evaluating \nthe impact of their programs on reducing the incidence of fistula and improving \nthe lives of affected women. \n\u2022 Partnerships: Collaboration with governments, non-governmental organizations \n(NGOs), healthcare institutions, and community-based organizations is crucial for \nthe success of fistula prevention and treatment programs. Donated funds may be \nused to strengthen these partnerships and leverage resources for maximum \nimpact. \n\u2022 Advocacy and Policy Change: Donations can support advocacy efforts aimed \nat raising the profile of obstetric fistula on national and international agendas,",
+    "page": 26,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.122094"
+  },
+  {
+    "id": "0473a09bb4559939",
+    "text": "influencing policies to prioritize maternal health, and promoting access to quality \nobstetric care for all women. \nIn conclusion \nNetwork for Good Year stands out as a pivotal tool for nonprofits aiming at enhance the \nfundraising effectiveness and donor engagement. With its integrated suite of user-\nfriendly tools, robust analytics, and emphasis on security and compliance, Network for \nGood Year empowers organizations to, Streamline Fundraising, Enhance Donor \nRelationships, Gain Actionable Insights, and Ensure Security. \n2.8 Food Donation Systems: \nAccording to Feeding America (2021), Food donation systems involve the collection and \ndistribution of surplus food to support food banks, shelters, and community \norganizations addressing food insecurity. \n2.8.1 How the system works \nFood donation systems involve the collection, sorting, and distribution of surplus food to \nsupport food banks, shelters, and community organizations addressing food insecurity. \nFeeding America (2021); outlines that these systems typically operate through \npartnerships with grocery stores, farms, manufacturers, and individual donors. The \ndonated food is inspected for safety and quality, sorted, and then distributed to local \nfood banks and agencies serving individuals and families in need across the United \nStates.",
+    "page": 27,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.140247"
+  },
+  {
+    "id": "d84e4694ab27eac8",
+    "text": "2.8.2 THE ADVANTAGES OF FOOD DONATION SYSTEM \n\u2022 Reduction of Food Waste: Food donation systems help diverts surplus food \nfrom landfills, reducing environmental impact and contributing to sustainability \nefforts. \n\u2022 Support for Food Insecure Individuals: They provide essential nutrition to \nindividuals and families facing food insecurity, helping to alleviate hunger and \nimprove health outcomes. \n\u2022 Community Engagement: Food donation systems foster community \ninvolvement through volunteer opportunities, partnerships with local businesses, \nand grassroots support. \n\u2022 Tax Benefits: Donors often receive tax benefits for donating surplus food, \nincentivizing businesses and individuals to participate in food donation programs. \n\u2022 Emergency Response: These systems can respond quickly to disasters and \nemergencies by providing immediate food assistance to affected communities. \n2.8.3 THE DISADVANTAGES OF FOOD DONATION SYSTEM \n\u2022 Logistical Challenges: Managing perishable food items requires efficient \nlogistics for collection, storage, and distribution, which can be complex and \ncostly. \n\u2022 Quality Control Issues: Ensuring the safety and quality of donated food items is \ncrucial but can be challenging, leading to concerns about food safety regulations \nand liability. \n\u2022 Stigma and Dignity: Some recipients may feel stigmatized or have their dignity \ncompromised when receiving donated food, impacting their willingness to access \nassistance. \n\u2022 Dependency Risk: Reliance on donated food may deter efforts to address root \ncauses of food insecurity, such as poverty and inequitable access to resources.",
+    "page": 28,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.157400"
+  },
+  {
+    "id": "fc67f5c20824145e",
+    "text": "\u2022 Legal and Regulatory Compliance: Food donation systems must comply with \nlocal, state, and federal regulations regarding food handling, storage, and \ndistribution, which can be burdensome. \nIn Conclusion: \n\nFood donation systems play a crucial role in addressing hunger and reducing food \nwaste, they also face challenges related to logistics, quality control, social stigma, \ndependency risks, and regulatory compliance. Balancing these factors is essential for \noptimizing the effectiveness and sustainability of food donation initiatives. \n2.9 Technology Donation Systems: \nAccording TechSoup (2020). Technology donation systems facilitate the donation of \ncomputers, software, and electronics to underserved communities, schools, and \nnonprofits \n2.9.1 HOW THE SYSTEM WORKS. \nTechnology donation systems facilitate the donation of computers, software, \nelectronics, and other tech-related items to underserved communities, schools, \nnonprofits, and individuals in need. These systems aim to bridge the digital divide by \nproviding access to technology that may otherwise be inaccessible due to financial \nconstraints. \nThe following are the processes it under goes \n\u2022 Donation Acquisition: Donors, including corporations, businesses, and \nindividuals, contribute new or gently used technology equipment such as \ncomputers, laptops, tablets, printers, software licenses, and peripherals. \n\u2022 Sorting and Refurbishment: Donated items are inspected, tested, and \nrefurbished if necessary to ensure they meet operational standards and are \nready for redistribution.",
+    "page": 29,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.173890"
+  },
+  {
+    "id": "c46b47b7f53ef15a",
+    "text": "\u2022 Distribution: Technology donation programs partner with schools, community \ncenters, nonprofit organizations, and low-income households to distribute \nrefurbished technology. Some programs also offer training and technical support \nto recipients to maximize the impact of donations. \n\u2022 Impact Monitoring: Organizations often track the impact of donations by \nmeasuring metrics such as the number of individuals served, educational \noutcomes, and community empowerment through technology access. \n2.9 .2 Advantages of Technology Donation Systems \n\u2022 Digital Inclusion: Technology donation systems promote digital literacy and \nempower individuals with access to educational resources, job opportunities, and \nessential services online. \n\u2022 Environmental Benefits: By extending the life of electronic devices through \nrefurbishment and reuse, these systems contribute to sustainability efforts by \nreducing electronic waste. \n\u2022 Corporate Social Responsibility (CSR): Donating technology allows \nbusinesses to fulfill CSR goals, enhance their public image, and contribute \npositively to the community. \n2.9.3 CHALLENGES TECHNOLOGY DONATION SYSTEMS \n\u2022 Digital Divide: While technology donation systems aim to bridge the digital \ndivide, disparities in access to reliable internet connectivity and ongoing technical \nsupport can limit the impact of donated devices. \n\u2022 Data Security: Donors and recipients must address data security concerns \nassociated with donated devices, ensuring that personal information is securely \nerased before redistribution. \n\u2022 Sustainability: Technology donation programs need sustainable funding and \npartnerships to continue operating effectively over the long term, including \nongoing support for maintenance and upgrades.",
+    "page": 30,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.204345"
+  },
+  {
+    "id": "015f6d5e4b82364b",
+    "text": "In Conclusion \nTechnology donation systems play a crucial role in promoting digital inclusion, \nsupporting educational opportunities, and empowering underserved communities. \nHowever, they also face challenges related to logistics, digital infrastructure, data \nsecurity, and long-term sustainability. Addressing these challenges requires \ncollaboration among donors, recipients, and community stakeholders to maximize the \nbenefits of technology access for all. \n2.10 CLOTHING DONATION SYSTEMS: \nAccording to Goodwill Industries International, (2020). Clothing donation systems \nfacilitate the collection and redistribution of gently used clothing items to individuals and \nfamilies in need, it donates to countries across the world. \n2.10.1 HOW CLOTHING DONATION SYSTEM WORK. \nClothing donation systems operate through partnerships with various stakeholders, \nincluding individuals, businesses, nonprofits, and community organizations. These \nsystems aim to address clothing insecurity, promote sustainability through reuse, and \nsupport social welfare initiatives. \nHowever, clothing donation system under goes through the following processes; \n\u2022 Donation Collection: Donors contribute gently used clothing items through \ndrop-off locations, donation bins, scheduled pickups, or designated collection \ndrives organized by charities and nonprofit organizations. \n\u2022 Sorting and Quality Control: Donated clothing undergoes sorting to assess \nquality and condition. Volunteers or staff inspects items to ensure they meet \nstandards for cleanliness and usability. \n\u2022 Distribution: After sorting, clothing items are distributed through various \nchannels. This includes local clothing banks, shelters, thrift stores, community \ncenters, and direct distribution events organized by nonprofits.",
+    "page": 31,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.224274"
+  },
+  {
+    "id": "f3b05f3d2cdf5e9a",
+    "text": "\u2022 Community Engagement: Clothing donation systems often involve community \nengagement activities, such as volunteer opportunities for sorting and distributing \nclothes, fundraising events, and awareness campaigns to encourage ongoing \ndonations. \n\u2022 Impact Monitoring: Organizations monitor the impact of clothing donations by \ntracking metrics such as the number of individuals served, types of clothing \ndistributed, and community feedback on the program's effectiveness. \n2.10.2 ADVANTAGES CLOTHING DONATION SYSTEM \n\n\u2022 Immediate Assistance: Clothing donation systems provide immediate \nassistance to individuals and families facing clothing insecurity, especially during \nemergencies and seasonal changes. \n\u2022 Environmental Benefits: Reusing clothing items reduces waste and promotes \nsustainability by extending the lifecycle of textiles. \n\u2022 Community Support: Donors and volunteers contribute to community cohesion \nand support social welfare initiatives through their participation in clothing \ndonation programs. \n2.10.3 CHALLENGES OF CLOTHING DONATION SYSTEM \n\u2022 Logistics: Managing large volumes of donated clothing, including sorting, \nstorage, and distribution, can pose logistical challenges for organizations, \nparticularly with limited resources. \n\u2022 Quality Control: Ensuring donated clothing meets quality standards for \ncleanliness and usability requires dedicated resources and attention to detail. \n\u2022 Stigma and Dignity: Some recipients may experience stigma or discomfort \nwhen receiving donated clothing, impacting their dignity and self-esteem.",
+    "page": 32,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.253205"
+  },
+  {
+    "id": "efe27d6a92d1c771",
+    "text": "In Conclusion \nClothing donation systems play a vital role in addressing clothing insecurity, promoting \nsustainability, and fostering community support. While they offer significant benefits, \nsuch as immediate assistance and environmental impact reduction, these systems also \nface challenges related to logistics, quality control, and social perceptions. Effective \nmanagement and community engagement are essential for maximizing the positive \nimpact of clothing donation programs on individuals and communities in need \n2.11 BOOK DONATION SYSTEMS: \nAccording to Books for Africa, (2019). Book donation systems is the collection and \ndistribution of books to promote literacy, education, and access to reading materials, \nthese books are donated by deferent people from various individuals or country to \nsupport the vulnerable Africans mostly the children. \n2. 11.1 HOW BOOK DONATION SYSTEM WORKS \nBook donation systems operate through partnerships with individuals, schools, libraries, \npublishers, and nonprofit organizations. These systems aim to increase access to \nbooks, support educational initiatives, and foster a love for reading among diverse \npopulations. It also under goes the following processes \nDonation Collection: Books are donated by individuals, schools, libraries, publishers, \nand other stakeholders. Donors contribute new or gently used books through collection \ndrives, drop-off locations, and scheduled pickups organized by book donation programs. \n\u2022 Sorting and Categorization: Donated books undergo sorting to assess their \ncondition, relevance, and suitability for different age groups and educational \nlevels. Volunteers or staff categorizes books based on genre, language, and \nsubject matter to facilitate efficient distribution. \n\u2022 Distribution Channels: Once sorted, books are distributed through various \nchannels:",
+    "page": 33,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.301594"
+  },
+  {
+    "id": "2e290b295bc68b49",
+    "text": "\u2022 Schools and Libraries: Books are provided to educational institutions and public \nlibraries to enhance their collections and promote literacy programs. \n\u2022 Community Centers: Books are made available at community centers, youth \nclubs, and cultural organizations to encourage reading among community \nmembers. \n\u2022 Direct Distribution: Some book donation systems organize events or pop-up \nlibraries where individuals can access free books directly. \n\u2022 Promotion of Reading: Book donation programs often include initiatives to \npromote reading, such as reading workshops, storytelling sessions, book clubs, \nand literacy campaigns. These activities aim to engage readers and foster a \nculture of reading within communities. \n\u2022 Monitoring and Evaluation: Organizations monitor the impact of book \ndonations by tracking metrics such as the number of books distributed, \nparticipation in reading programs, and feedback from recipients and \nstakeholders. \n2.11.3 ADVANTAGES OF BOOK DONATION SYSTEM. \n\u2022 Promotion of Literacy: Book donation systems increase access to reading \nmaterials, promoting literacy and educational outcomes for children and adults. \n\u2022 Community Engagement: Donors, volunteers, and recipients engage in \ncommunity-building activities, fostering collaboration and support for educational \ninitiatives. \n\u2022 Cultural Enrichment: Access to diverse books enhances cultural understanding \nand appreciation among readers, promoting inclusivity and diversity in reading \nmaterials.",
+    "page": 34,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.319415"
+  },
+  {
+    "id": "1afe9c2044f5d937",
+    "text": "2.11.3 CHALLENGES OF BOOK DONATION SYSTEM \n\u2022 Quality Control: Ensuring donated books are in good condition and suitable for \nintended recipients requires careful inspection and sorting processes. \n\u2022 Logistical Coordination: Managing large volumes of donated books and \ncoordinating distribution efforts across multiple locations can be complex and \nresource-intensive. \n\u2022 Sustainability: Maintaining sustainable funding, volunteer support, and \npartnerships is essential for the long-term viability of book donation programs. \nIn Conclusion \nBook donation systems play a critical role in promoting literacy, supporting education, \nand enriching communities through access to reading materials. While they offer \nsignificant benefits, including educational enrichment and community engagement, \nthese systems also face challenges related to logistics, quality control, and \nsustainability. Effective management and collaboration among stakeholders are \nessential for maximizing the impact of book donation programs on literacy and \neducational outcomes worldwide \n2. 12 TOY DONATION SYSTEMS: \nAccording to Toys for Tots Foundation (2018). Toy donation systems involve the \ncollection and distribution of toys to children in hospitals, shelters, and low-income \nfamilies during holidays and throughout the year. \n2.12.1 HOW TOY DONATION SYSTEM WORKS \n\nToy donation systems aim to provide joy, comfort, and developmental benefits to \nchildren facing adversity or in underserved communities. These systems rely on \ndonations from individuals, businesses, and organizations to gather new or gently used \ntoys for distribution. Toy donation system works in the following steps;",
+    "page": 35,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.361123"
+  },
+  {
+    "id": "538abcb125a64d80",
+    "text": "Donation Collection: Toys are donated by individuals, businesses, schools, and \ncommunity organizations. Donors contribute new toys or gently used toys in good \ncondition through collection drives, drop-off locations, and scheduled pickups organized \nby toy donation programs. \nSorting and Inspection: Donated toys undergo sorting and inspection to ensure they \nmeet safety standards and are appropriate for distribution to children. Volunteers or staff \nmembers check toys for cleanliness, functionality, and age-appropriate content. \nDistribution Channels: Once sorted and inspected, toys are distributed through \nvarious channels: \n\u2022 Nonprofit Organizations: Toys are provided to nonprofit organizations, \nchildren's hospitals, shelters, and community centers that serve children in need. \n\u2022 Holiday Programs: Many toy donation systems organize special events during \nholidays, such as Christmas or birthdays, where donated toys are distributed to \nchildren to celebrate these occasions. \n\u2022 Direct Distribution: Some toy donation programs set up toy libraries or play \ncenters where children can access and play with donated toys directly. \nPromotion of Play and Development: Toy donation programs often include initiatives \nto promote play, creativity, and child development, such as toy drives, play workshops, \nand educational activities that engage children and families. \nMonitoring and Evaluation: Organizations monitor the impact of toy donations by \ntracking metrics such as the number of toys distributed, participation in toy-related \nactivities, and feedback from recipients and caregivers.",
+    "page": 36,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.405532"
+  },
+  {
+    "id": "b9a11c9956001806",
+    "text": "2.12.2 ADVANTAGES OF TOY DONATION SYSTEM \n\u2022 Joy and Comfort: Toy donation systems bring joy and comfort to children facing \ndifficult circumstances, fostering emotional well-being and happiness. \n\u2022 Developmental Benefits: Toys support children's cognitive, social, and \nemotional development through imaginative play, creativity, and social \ninteraction. \n\u2022 Community Engagement: Donors and volunteers participate in community-\nbuilding activities, fostering compassion and support for children in need. \n2.12.3 CHALLENGES OF TOY DONATION SYSTEM \n\u2022 Safety and Quality Control: Ensuring donated toys are safe, clean, and age-\nappropriate requires rigorous inspection and adherence to safety guidelines. \n\u2022 Logistical Coordination: Managing toy collection, sorting, and distribution \nlogistics across multiple locations can be complex and resource-intensive. \n\u2022 Sustainability: Maintaining ongoing support, funding, and partnerships is crucial \nfor the sustainability and effectiveness of toy donation programs over time. \nIn Conclusion \nToy donation systems play a crucial role in bringing happiness, supporting \ndevelopment, and fostering community engagement through the provision of toys to \nchildren in need. While they offer significant benefits, including emotional support and \ndevelopmental opportunities, these systems also face challenges related to safety, \nlogistics, and sustainability. Effective management, collaboration among stakeholders, \nand community involvement are essential for maximizing the impact of toy donation \nprograms on children's well-being and development.",
+    "page": 37,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.431697"
+  },
+  {
+    "id": "3794210f5f206367",
+    "text": "2.13 BENEFITS OF HEALTH DONATION SYSTEM \n\u2022 Increased access to healthcare for underserved populations. \n\u2022 Support for medical research and innovation. \n\u2022 Strengthening of healthcare infrastructure. \n\u2022 Promotion of public health initiatives and disease prevention. \n\u2022 Emergency response and disaster relief efforts. \n\u2022 Empowerment of vulnerable groups, especially women and children. \n\u2022 Contribution to global health security and economic development. \n2.14 CHALLENGES OF HEALTH DONATION SYSTEM. \n\u2022 Donor Fatigue: Over time, donors may become fatigued or disillusioned with \ncontinuous appeals for donations, impacting the sustainability of funding streams \nfor health initiatives. \n\u2022 Transparency Issues: Lack of transparency regarding how donated funds are \nutilized can erode trust among donors and hinder future fundraising efforts. \n\u2022 Logistical Constraints: Delivering healthcare services, especially in remote or \nconflict-affected areas, can pose logistical challenges such as transportation, \ninfrastructure limitations, and security concerns. \n\u2022 Sustainability: Many health issues require long-term solutions, but reliance on \nshort-term funding cycles can lead to gaps in service provision and hinder \nsustainable impact. \n\u2022 Dependency: Overreliance on external donations can create dependency \namong recipient communities or healthcare systems, undermining local capacity \nbuilding and ownership",
+    "page": 38,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.455933"
+  },
+  {
+    "id": "8eab0e5ea0f2d92b",
+    "text": "In conclusion \nHealth donation systems are very important for helping people with health problems \naround the world, especially in places where there isn't enough health care. These \nsystems include donations like blood, organs, tissues, bone marrow, and plasma. They \nsave lives, make health better, and help with medical research. Health donation \nsystems also encourage people to be kind and work together. They give important \nthings to help communities stay strong and work well together. But there are challenges, \nlike how to move things around, make sure they're safe, and keep getting help. We \nneed new ideas, people working together, and strong rules to make health donation \nsystems work best. These systems show how working together can make healthcare \nfair and save lives worldwide \n2.14 Comparison of related systems \nTable 1: Comparisons for the Related Systems \nSystems \nStrengths \nWeaknesses \nTechnology \nDonor \nperfect \ndonation \nSystem \nEfficient donor management \n Customizable reports \nCostly for small nonprofits, \n\n learning curve for new users \n\nWeb-based \nTechnolo\ngy \nDonation \nsystem \n Access to updated \ntechnology, \nsupports digital literacy \ndigital communication \nCompatibility issues, \n outdated donations \nit\u2019s too costly to maintain it faces \nmuch malwares over the network \nWeb-based.",
+    "page": 39,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.483560"
+  },
+  {
+    "id": "44a71ede74c502c2",
+    "text": "Clothing \ndonation \nsystem \nProvides clothing to those in \nneed, \nreduces textile waste \nSorting and storage challenges \nseasonal demand fluctuations. \nWeb-based. \nBook \ndonation \nSystem \nPromotes literacy, \neducational resource availability \nQuality control of donated books, \ndistribution logistics \nWeb-based. \nToy \nDonation \nSystem \nBrings joy to children \nreduces waste \nSafety concerns, \nage-appropriate donations \nWeb-based. \nFood \nDonation \n System \n\nAddresses immediate hunger \nneeds, \n community involvement \nShelf-life of donations \n, logistics of perishable items \nWeb-based. \n2.15 conclusions \nThis chapter mainly described the literature review of health donation systems where \nwe gatherer information about other related systems, how they function and the \nenhancements needed in order to improve the current health donation system to fight \nfistula in Uganda.",
+    "page": 40,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.492021"
+  },
+  {
+    "id": "3b0a1850685b9690",
+    "text": "CHAPTER THREE \nResearch Methodology \n2.0 Introduction \nThe methodology focuses on the patterns of research, approaches to data collection, \ntechniques for analysis, and tools that are used for designing and implementing the \nHealth Donation System to Fight Fistula. The methodology aligns with the specific \nobjectives of the proposed system. \n3.1 System Study and Analysis \nFact-finding techniques are used in this project to determine the system and user \nrequirements, as well as system inputs and outputs. This greatly determines what the \nsystem is expected to do. These techniques include: \n3.2 Data Collection Techniques \n3.2.1 Interview \nInterviews serve as a forum for talking to people and can be structured, unstructured, or \nsemi-structured. The researcher conducts interviews with stakeholders, including \nhealthcare providers and patients, to identify and specify functional and non-functional \nrequirements. The interviews are both semi-guided and unguided and contain both \nclosed and open-ended questions. This approach helps obtain data about the operation \nof existing systems, their problems, strengths, information flow, and processing. \n3.2.2 Observation \nThe researcher observes various activities related to health donation and fistula \ntreatment. Observations include patient registration, donation processes, and storage \nmethods. Pen and paper are used to note observations such as the level of congestion \nand the efficiency of manual systems in place.",
+    "page": 41,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.515973"
+  },
+  {
+    "id": "87ac68e4bfa5a17e",
+    "text": "3.2.3 Reviewing Existing Documents \nThe researcher reviews existing documents and literature to gather more information \nabout fistula treatment and health donation systems. This includes checking relevant \nwebsites and scientific articles, which provide the necessary information. \n3.2.4 Questionnaires \nQuestionnaires are used to gather information from users of the health donation system. \nQuestionnaires, submitted to healthcare providers and patients, aim to gain statistical \ninformation about the challenges and efficiency of current donation processes. This \nfeedback helps in understanding the system's requirements for efficiency and \neffectiveness. The questionnaires to used are. \n\u2022 The causes of fistula and its impacts, this will help to make awareness to \npeople at least to take care and avoid some risks which may result into the \ncases. \n\u2022 Treatment Protocols: Observe the current treatment protocols followed at the \ncenter, including surgical procedures, post-operative care, and rehabilitation \nservices provided to patients. \n\u2022 Patient Demographics, gather information about the demographic profile of \npatients treated at the fistula health center. This includes age, gender, socio-\neconomic status, and geographical distribution. \n\u2022 Types and Severity of Fistula Cases: Understand the different types of fistula \ncases treated at the center (e.g., obstetric, traumatic) and their severity levels. \nThis helps in assessing the varying needs of patients. \n\u2022 Medical Equipment and Infrastructure: Assess the availability and condition of \nmedical equipment used for diagnosis, surgery, and patient care. Note any \ndeficiencies or needs for upgrading.",
+    "page": 42,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.568745"
+  },
+  {
+    "id": "ab3b59d7c5975273",
+    "text": "\u2022 Staffing and Expertise: Evaluate the expertise and qualifications of healthcare \nstaff involved in fistula treatment, including surgeons, nurses, and rehabilitation \nspecialists. \n\u2022 Patient Flow and Management: Study how patients are referred, admitted, \ntreated, and discharged from the center. Identify any bottlenecks or inefficiencies \nin patient flow. \n\u2022 Data Collection and Management: Examine how patient data is collected, \nstored, and managed within the center. Assess the adequacy of information \nsystems for tracking patient outcomes and follow-ups. \n\u2022 Community Engagement and Outreach: Explore the center's efforts in \ncommunity outreach, education, and awareness campaigns related to fistula \nprevention, treatment, and stigma reduction. \n\u2022 Financial and Resource Constraints: Understand the financial challenges \nfaced by the center in terms of funding for surgeries, medical supplies, and staff \nsalaries. \n\u2022 Patient Support Services: Investigate the availability of psychosocial support, \ncounseling, and reintegration services provided to fistula patients post-treatment. \n3.3 Data Analysis Methods \nResearchers use data analysis application software, including Microsoft Excel, to \ncapture and record data from observations. This includes noting the time spent by \npatients during registration, the level of congestion, and waiting times. Data is then \nrepresented graphically using bar graphs.",
+    "page": 43,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.587622"
+  },
+  {
+    "id": "fae6d1e2947ff8f2",
+    "text": "3.4 System Analysis and Design \nThe analysis and design of the system involve identifying the inputs, processes that \ntransform inputs into outputs, and satisfying system constraints. Data flow diagrams and \nentity relationship diagrams are used to demonstrate data transfer processes and \nrelationships among entities in the system. \n3.4.1 System Analysis \nSystem analysis involves identifying and summarizing data to extract useful information \nand develop conclusions. Requirements are determined based on the system study, \nincluding: \nFunctional Requirements \n\u2022 \nFacilitate efficient health donation processes. \n\u2022 \nEnsure secure and accurate data entry and storage. \n\u2022 \nProvide real-time tracking of donations and beneficiaries. \n\u2022 \nGenerate comprehensive reports on donation activities and outcomes. \nNon-Functional Requirements \n\u2022 \nEnsure high system reliability and availability. \n\u2022 \nMaintain data privacy and security. \n\u2022 \nProvide user-friendly interfaces for both healthcare providers and patients. \n\u2022 \nEnsure compatibility with various operating systems and devices. \n3.4.2 System Design \ni. Process Modeling \nProcess modeling is achieved using Data Flow Diagrams (DFDs) to show processes \nand external entities in the system. The end product is a detailed description of",
+    "page": 44,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.605271"
+  },
+  {
+    "id": "d2da2d136f3bf47a",
+    "text": "processes involved. The information used in building the DFDs is obtained from the \nData Dictionary. \nii) Data Modeling \nData modeling is achieved using Entity-Relationship Diagrams (ERDs) to show data \nrequirements and relationships. This yields the structure of relations in the relational \nschema (database). \n3.5 System Implementation \nThis stage involves the physical realization of the database and application design, \nusing Data Definition Language (DDL) of the selected Database Management System \n(DBMS). \n3.5.1 Implementation Tools \nIn the implementation stage, the following tools are used: xamp/Apache server, MySQL, \nPHP, JavaScript, Notepad++, Windows operating system. \n3.5.1.1 Xamp \nXamp is a free server bundle that includes Apache, MySQL, and PHP. Pages are stored \nin the system\u2019s special folder accessible on the network via the machine\u2019s IP address. \n3.5.1.2 PHP \nPHP is an open-source server-side programming language extensively used for web \nscripts, integrated with HTML, and used in content management systems and other web \napplications.",
+    "page": 45,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.637411"
+  },
+  {
+    "id": "006ab052cb781a81",
+    "text": "3.5.1.3 MySQL \nMySQL is an open-source Relational Database Management System (RDBMS) using \nStructured Query Language (SQL). It is noted for its speed, reliability, and flexibility, \nsuitable for multi-user databases. \n3.5.1.4 HTML \nHTML, the predominant markup language for web pages, provides a means to describe \nthe structure of text-based information in a document and includes interactive forms, \nembedded images, and other objects. \n3.6 System Testing and Validation \n3.6.1 Testing \nTesting involves executing application programs to find errors and observe if they \nbehave as expected. The process includes: \n\u2022 \nTesting system performance, efficiency, disk space, and throughput. \n\u2022 \nChecking compatibility with different operating systems (e.g., Windows XP, \nLinux, and Windows 7). \n\u2022 \nTesting for security issues like resistance to remote attacks and authentication \nprocedures. \n3.6.2 Validation \nValidation is an assessment of the operational health donation system to ensure that it meets \nthe intended purpose and needs of system users. Validation involves checking whether the \nHealth Donation System to Fight Fistula meets the identified user, functional, and non-functional \nrequirements. Validation is performed by providing the system to end user representatives who \ntest the system to verify that it meets the intended user requirements.",
+    "page": 46,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.681491"
+  },
+  {
+    "id": "5ca1cff2bf8bdf24",
+    "text": "3.6.3 Conclusion \nIn summary, this chapter describes the methodologies used for different patterns of research, \napproaches to data collection, techniques for analysis, and tools used for designing and \nimplementing the Health Donation System to Fight Fistula.",
+    "page": 47,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.801076"
+  },
+  {
+    "id": "05a469d166ad2f0a",
+    "text": "CHAPTER FOUR \nSystem Study, Analysis and Design \nThis chapter concerns the study of the existing system, analysis of the requirements for the \nsystem, process and data modeling. \n4.1 \nThe study of the Existing System \nFrom the data gathered about the existing health donation systems at the district level through \ninterviews, observation, and review of any available documents, it was discovered that there is \nno formalized system currently in place at the health centers for managing donations. Health \ncenters rely on manual processes or ad-hoc methods to manage donations, which are often \ninefficient and lack proper documentation. \nInterviews and Observations: Discussions with healthcare workers, administrators, and other \nstakeholders revealed that the lack of a structured donation management system has led to \nseveral issues and below are some of them; \n\u2022 \nResource Mismanagement: Without a formal system, it's challenging to track donations \nand ensure that resources are allocated effectively to treat fistula cases. \n\u2022 \nDonor Engagement: Donors have no clear or reliable way to register their contributions \nor receive feedback on how their donations are being used. \n\u2022 \nOperational Delays: The absence of an organized system results in delays in accessing \nfunds and resources necessary for treating patients. \nReview of Existing Documentation: Although there were minimal documents available for \nreview, the few that existed were not standardized or consistent. This further emphasized the \nneed for a system that could offer transparency and accountability in managing health \ndonations. \nJustification for a New System: The findings from the study of the current situation highlight \nthe urgent need for an Online Health Donation Management System. Such a system would: \n\u2022 \nStreamline Donation Processes: Allow for efficient registration and management of \ndonations.",
+    "page": 48,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:49.897412"
+  },
+  {
+    "id": "f7b1e2625a8cc8ac",
+    "text": "\u2022 \nEnhance Resource Allocation: Ensure that donations are directed to where they are \nmost needed. \n\u2022 \nImprove Donor Engagement: Provide donors with feedback on how their contributions \nare making an impact. \n4.1.1 workflow for health donation system, \n\nVisit homepage \nstart \nRegister with \ndetails\nVisit homepage \nDonation \nmethod=money \nDonation \nmethod=in kind \nerror \nChoose payment \nmethod \nRedirect to \npayment gateway \nDonation \ncomplete \nFill up form \nGoods collected \nPayment receipt \nMake \nanother \ndonation? \nEnd \nThank you \nno \nyes \nyes \nyes \nno",
+    "page": 49,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.018172"
+  },
+  {
+    "id": "649c5632602eae6e",
+    "text": "4.1.2 Strength of the existing System \ni. \nThe use of paper management system enables user to be very accurate writing \n4.1.3 Weakness of existing System \ni. \nThere is online donation process \nii. \nNo feedback given to the donors \niii. \nNo data retrieve, meaning there is no database to the system. \n4.2 Data analysis results \nI used different data techniques in collecting data in order to come up with accurate information, \nI was able to come with different challenges, the institute is facing in trying to treat the patients \nfacing with fistula in the whole district, the institute has no online donation which can track the \ndonors in large number to support their mission. \n\u2022 \nThe major challenge of the current system is that donors have no clear or reliable way to \nregister their contributions or receive feedback on how their donations are being used, \nthere is also time wastage where by the donor has to move to the health center to \ndonate. The absence of an organized system results in delays in accessing funds and \nresources necessary for treating patients whereby it put the life of the patient at risk. The \nexample of an analysis on the challenges associated with the current system is shown in \nTable 1.",
+    "page": 50,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.035540"
+  },
+  {
+    "id": "61fe4de4dc3401e3",
+    "text": "4.2.1 The tabular representation of the challenges associated with the current health \ndonation. \nTable 2: Challenges associated with the current system. \nChallenges \nNumber of respondents out of \n4 \nPercentage of respondents \n\nTime wastage \n\n4 \n\n85 \n\nLevel of feedback \n\n3 \n\n65 \n\nRegistration of donors \n\n2 \n\n50",
+    "page": 51,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.041578"
+  },
+  {
+    "id": "97ad06a94bc3bb98",
+    "text": "4.2.2 The Graphical Representation of the Challenges faced by the \ncurrent financial management system. \n\n4.2.1 User Requirements \nThese are statements, in a natural language, of what services the system is expected to provide \nand the constraints under which it must operate. Below are the user requirements for the \nsystem; \ni. The system should allow the donors to register \nii. The system should allow the donors to select the method of donation and the type of \ncurrency thy are desired to use \niii. The system should be easy to use. \niv. The system should authenticate the users by putting the accessing with the passwords. \nv. The system should allow the admin to record the information of the patients and the \ntreatment. \n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\ntime wastage\nlevel of feedback\nregistration of\ndonors\n% of response\nno of resp out of 4\nChallenges faced \nPe\nrc\nen\nta\nge\ns \nof \nre\nsp\non\nse",
+    "page": 52,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.269938"
+  },
+  {
+    "id": "9264c0ab6b1f0996",
+    "text": "4.2.2 Functional requirements \nA Functional requirement is a description of activities and services that the online health \ndonation System provides in terms of proceeding and data handling. So according to the tools \nused to collect data from the users, the following functional requirements are; \ni. The system should generate reports on to the donors annually on how the donations were \nused. \nii. The system should store and retrieve information and the donors and donations. \niii. The system should update the donors about the situation of the patients. \niv. The system should enable employees to record the information of the patients. \n4.2.3 Non-functional requirements \nA non-functional requirement is description of other features, characteristics and constraints that \ndefine the satisfactory of the system therefore it describes how the Online donations System is \nto perform. Some of these requirements which were considered during the design of the system \ninclude; \ni. The user should be able to access the system at any time of the day. \nii. The system should authenticate users through username and password. \niii. The system should provide fast processing to all user requests. \niv. The system should be flexible, and easy to update. \nv. The system should process user\u2019s tasks as fast as possible. \nvi. The online financial transfer Management System should be reliable.",
+    "page": 53,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.288031"
+  },
+  {
+    "id": "f459682431ef289e",
+    "text": "4.2.4 System requirement \nThe system requirement includes requirements that are needed to include certain functionality \nin the system. It involved describing the system and the properties in that system. They include \nthe hardware and software requirements as follows; \n4.2.4.1 Hardware Requirements \nTable 3: Hardware requirements \nHardware \ncomponent \nSystem requirement \nJustification \nProcessor \nIntel Core i3 or above \nThe Intel Core i3 provides efficient \nperformance, supports multitasking, and is \nsuitable for running health donation \nmanagement software seamlessly \nProcessor speed 2.0 GHz or above \nThis speed ensures that the system can \nhandle real-time data processing, which is \ncrucial for managing donations and related \ntransactions effectively. \nDisk space \n256 GB SSD or above \nA 256 GB SSD offers fast read/write speeds \nand sufficient storage for donor information, \ntransaction logs, and health center records. \nRAM \n4 GB and above \n8 GB RAM ensures smooth operation of the system, espec\nconcurrent users or large volumes of data. \nNetwork Interface Ethernet 10/100/1000 \nMbps \nHigh-speed network connectivity is essential \nfor secure and efficient data transfer within \nthe donation management system \nPower Supply \n500W or above, with UPS \nbackup \nEnsures stable operation and protection \nagainst power interruptions, which is critical \nfor maintaining data integrity in the donation \nsystem.",
+    "page": 54,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.513914"
+  },
+  {
+    "id": "e89d234d6a6a9b88",
+    "text": "4.2.4.2 Software Requirements \nTable 4: Software requirements \nSoftware \nComponent \nSystem \nRequirement \nJustification \nOperating System \nfor the server \nWindows NT or \nabove \nWindows NT adopts a new layered device-driver \narchitecture that provides many advantages in \nterms of flexibility, maintainability, and portability. \nOperating system \nfor the client PC \nWindows XP \nWindows XP can be used on personal computers, \nincluding home and business desktops, laptops and \nmedia centers. \nWeb Server \nApache Web \nServer Version 1.3 \nThis is a web server software notable for playing a \nkey role in the initial growth of the World Wide Web. \nWeb Browser \nOpera Mobile \nEmulator \nIt is the default browser shipped with Windows XP \nand is also made available for Windows NT 4.0. \nDatabase \nManagement \nSystem \nMySQL server \nversion 3:23.48 \nMySQL is an open source relational database \nmanagement system (RDBMS) that runs as a \nserver providing multi-user access to a number of \ndatabases.",
+    "page": 55,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.527495"
+  },
+  {
+    "id": "848856c3ebbdbff2",
+    "text": "4.3 \nSystem Design \nIn the system design phase, process modeling involved use of Data Flow Diagrams (DFD), and \nData modeling involved use of Entity Relationship Diagrams (ERD). \n4.3.1 Architectural Design for the System \nThe architectural design shows how the OFTMS is comprised of the different subsystems \nnamely Data collection, Data Processing, Data Storage and Data Display. The figure below \nshows an architectural diagram of the Online Financial Transfer Management System. \n\nDonation records \nPhp script language \nDonation report MYSQL database for HDS \nDonors \nPatients \nWeb server \nDatabase \nInformation request \nDonation report \nDonors details\nFeedback \nHT\nTP \nRE\nSQ\nUE\nAS\nHT\nTP \nre\nsp\non",
+    "page": 56,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.542810"
+  },
+  {
+    "id": "4d45d14fe4bcb9ca",
+    "text": "4.3.2 Process Modeling \nThese show how information or data will be moving around the health donation System from the \nentry to various repositories or data stores. \n4.3.2.1 Key Symbols \nSymbol Name \n External entity \n\n Data store \n\n Data flow \n\n Process \n\nDescription of the above key symbols; \ni. \nAn Entity is a real-life object with an independent existence that interacts with the \nsystem. \nii. \nData store shows where data is stored after being processed. This can be a database or \na file. \niii. \nData flow shows the movement of data within the system and also connects processes, \ndata stores and external entities. \niv. \nA Process is a series of activities or actions to accomplish a desired task. \n4.3.3 Data Flow Diagrams (DFD). \nIt is one of the most important modeling tools used by system analysts. It is used to illustrate \nhow data flows in a system. DFD\u2019s use a number of symbols to represent systems. There are \nfour kinds of symbols. These are used to represent four kinds of system components. \nProcesses, data stores, data flows and external entities.",
+    "page": 57,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.696839"
+  },
+  {
+    "id": "85dd7d3afa903f57",
+    "text": "4.3.3.1 The Context Level DFD \n\nIn figure 4.3: user logs into the online health donation system and when user is authenticated, \ncan requests for donation and the feedback is then sent to the user. The administrator also logs \ninto the system and when authenticated can query for data and receives immediate feedback. \n4.3.3 Data Flow Diagrams (DFD). \nIt is one of the most important modeling tools used by system analysts. It is used to illustrate \nhow data flows in a system. DFD\u2019s use a number of symbols to represent systems. There are \nfour kinds of symbols. These are used to represent four kinds of system components. \nProcesses, data stores, data flows and external entities. \nDonor \nOnline health \ndonation system \nDonor\u2019s details \nUsername and password \nDonor\u2019s records and transaction \nDonation Records \nUser\u2019s passwords \nAdministration",
+    "page": 58,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.718447"
+  },
+  {
+    "id": "79a618feb91652b6",
+    "text": "4.3.3.2 The Level 1 DFD for the Online Financial Transfer Management System \n\nDescription for the level 1 DFD \nIn this subsection, there are tables describing all the design objects used in developing the \nsystem. They include Processes, Data flows, Data stores and the External entities.",
+    "page": 59,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.880483"
+  },
+  {
+    "id": "9ce7eb19d83d74e0",
+    "text": "Description for Processes \nTable 5: Description of Processes \nProcess \nDescription \nAuthentication Process \nVerification of username and passwords of users \nUser Registration Process \nCapture all user details \nDonor Registration Process \nCaptures all donor\u2019s details \nPatient registration process \nCaptures all the patients\u2019 details \nDonation processes \nDonations tracked \nEmployees \nEmployees details \n\nDescription of Data Stores \nTable 6: Description for Data stores \nData store \nDescription \nUser Data \nStores user\u2019s passwords and usernames \nDonor Data Store \nStores donor\u2019s registration details \nDonation transaction Process \nStores Transaction details or records \nPatients Data \nStores all patients details or information \nEmployees \nStores all the employee details",
+    "page": 60,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:50.896509"
+  },
+  {
+    "id": "658b10bd303af523",
+    "text": "Description for External Entities \nTable 7: Description of External Entities \nEntity \nDescription \nEmployee \nFeeds new organization details into the system \nDonor \nDonate using the system \nAdministrator \nMonitors and manages the system \nAccount \nContains health center\u2019s details \nPatients \nTo make appointments using the system \n\n4.3.4 Identification of Entities and their Attributes \nTable 8: Identification for Entities and their Attributes \nEntity \nDescription \nAttributes \nDonor \nDonor, is the parson that gives support to the \ninstitute or health center \ndonor_id \nSurname \nother_name \nTelephone \nE-mail \nlocation \nsex \nnationality \nAge",
+    "page": 61,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.120359"
+  },
+  {
+    "id": "47c682ebe3928d5b",
+    "text": "Bank \nBank, is the place which own the accounts of the \ninstitute \n\nbank_id \nname \nAddress \nemployee \nEmployee is the person which feeds the system \nwith the information \nEmployee\u2019s_id \nSurname \nother_name \nTelephone \nE-mail \nlocation \nsex \nnationality \nAge \nDepartment \nDepartment is a section/division of health center \nthat is responsible to receive the donations from \nthe donors on behalf of the patients \ndepertment_id \nname \ntelephone \nPatient \nPatient, is the parson who is being supported by \ndonor either treatment or other requirements \nSurname \nother_name \nTelephone \nE-mail \nlocation \nsex \nnationality",
+    "page": 62,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.137192"
+  },
+  {
+    "id": "9b1750488964bd06",
+    "text": "Age \n\n4.3.5 Modeling Relationships between s \n\nFigure 4. 1: Relationship between donor and donations \nA Donor can make one or more donations, while a Donation is made by one and only one \nDonor. \n\nFigure 4. 2: Relationship between health center and donations \nA Health Center receives one or more donations, and each donation is directed to one and only \none Health Center \n\nFigure 4. 3: Relationship between department and health center \nA Health Center can have one or more departments, and a department belongs to one and only \none Health Center \n\nFigure 4. 4: Relationship between health center and employee \nA Health Center employs one or more employees, while an Employee works at one and only \none Health Center \nDonor \nDonations \n1..1 \n1..* \nHealth center \nDonations \n1..1 \n1.. * \nDepartment \nHealth center \n1..* \n1.. *\nHealth center \nemployee \n1..* \n1..1 \nbelongs to \nContains \nIsContainedIn \nconsistsOf",
+    "page": 63,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.159397"
+  },
+  {
+    "id": "c07e6fc18e2501cc",
+    "text": "Fingure 4.10: Relationship between the health center and the employee \nA Health Center provides services to one or more patients. A Patient can receive services from \none or more Health Centers. \n\nFingure 4.10: Relationship between the patients and the treatment \nA Patient can receive one or many Treatments. \nA Treatment is provided to one and only one Patient \nFingure 4.10: Relationship between the patients and the appointments \n\nOne patient can many appointments and many appointments can be made by many patients \n\nHealth center \nPatient \n1..* \n * \nPatient \nTreatment \n1..* \n * \nPatient \nAppointment \n1..* \n *",
+    "page": 64,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.252092"
+  },
+  {
+    "id": "d8bf985635e9c487",
+    "text": "4.3.6 The Entity Relationship Diagram \n\n1:1 \n\nHealth center \nCenter ID (Pk) \nName \nLocation \nContac inf, \nGmail. \ndonor \ndonor ID (PK), \nname, email, \nphone, addres, \nsex \nDonation \nDonation (PK) \nDate, amount, \ncurrency,meth\nod, donor \nID(FK), center \nID (Fk) \nPatient \nPatient ID (PK) \nName, date of \nbirth, address \ngender, \nphone, email, \ndiagnosis, \ncenter ID (Fk)\nTreatment \nTreatment ID (pk) \nName, \ndescription, cost, \npatients(fk) \nAppointment \nAppointmentID(Pk) \nDate \nTime, Patient ID(Fk), \nEmployee (Fk) \nCenter ID (FK) \nEmployee \nEmployee ID (pk) \nName, Role, \nemail, phone \nLocation, \nCenter(fk) \nDonations to center \nPatient \ngetting \ntreatment \nEmployee working on the \npatient \nDonations \nfor \ntreatment \nDonor supporting the patient \nPatient making appointment \n1:m \n1:1 \n1:m \n1:1 \n1:m \n1:1 \n1:m \n1:m \n1:1 \n1:m \n1:m \n1:1",
+    "page": 65,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.284297"
+  },
+  {
+    "id": "ba03d2c7844cdd0e",
+    "text": "4.3.7 Mapping of ERD to Relational Schema \n4.3.7.1 donors \nTable 9: The Customer table \nField Name \nData Type \nConstraint \ndonorID \nint(13) \nPrimary Key, not null \nFname \nvarchar(25) \nNot null \nLname \nvarchar(22) \nNot null \nTelephone \nint (15) \nNot null \nEmail \nvarchar(33) \nNot null \nAddress \nvarchar (32) \nNot null \nSex \nvarchar(7) \nNull \nNationality \nvarchar(22) \nNot null \n4.3.7.2 health center \nTable 10: The health center table \nField Name \nData Type \nConstraint \nCenter ID \nint(14) \nPrimary Key, not null \nName \nvarchar(30) \nNot null \nTelephone \nInt(22) \nNot null \nAddress \nvarchar(25) \nNot null \nemail \nvarchar(22) \nNot null",
+    "page": 66,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.291381"
+  },
+  {
+    "id": "51668e58a0426fa0",
+    "text": "4.3.7.3 Donation \nTable 11: The donation table \nField Name \nData Type \nConstraint \nDonarion ID \nint(17) \nPrimary Key, Not null \ndate \nint(17) \nNot null \nAmount \nint(30) \nNot null \ncurrency \nVarchar(20) \n Not null \nMethod of donation \nVarchar(20) \nNot null \nDonor ID \nInt(16) \nForeign Key, Not null \nCenter ID \nInt(16) \nForeign Key, Not null \n\n4.3.7.4 patient \nTable 12: The patient table \nField Name \nData Type \nConstraint \nPatient ID \nint(22) \nPrimary Key, Not null \nFirst name \nvarchar(20) \nNot null \nLast name \nvarchar(20) \nNot null \nDate of birth \nInt(15) \nNot null \nGender \nvarchar(15) \nNot null \nPhone number \nInt(13) \nNot null",
+    "page": 67,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.305019"
+  },
+  {
+    "id": "925e82fbe8eb41fb",
+    "text": "Email \nInt(22) \nNot null \nDiagnosis \nvarchar(23) \nNot null \nCenter ID \nint (23) \nForeign key, Not null \nAddress \nvarchar(23) \nNot null \n\n4.3.7.5 Treatment \nTable 13: The treatement table \nField Name \nData Type \nConstraint \nTreatment ID \nint(20) \nPrimary Key, Not null \nName \nvarchar(18) \nNot null \nDescription \nVarchar(70) \nNot null \nCost \nInt(30) \nNot null \nPatientID \nInt(20) \nForeign Key, Not null \n\n4.3.7.6 appointment \nTable 14: The appointment table \nField Name \nData Type \nConstraint \nAppointment ID \nint(20) \nPrimary Key, Not null \nDate \nInt(15) \nNot null \nTime \nint(15) \nNot null",
+    "page": 68,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.313684"
+  },
+  {
+    "id": "2678281be12f3441",
+    "text": "Telephone \nint(12) \nNot null \nPatient ID \nInt(15) \nForeign key, Not null \nEmployment ID \nInt(15) \nForeign Key, Not null \nCenter ID \nInt(15) \nForeign Key, Not null \n\n4.3.7.8 employee \nTable 15: The employee table \nField Name \nData Type \nConstraint \nemployee ID \nint(20) \nPrimary Key, Not null \nFirst name \nvarchar(20) \nNot null \nLast name \nvarchar(20) \nNot null \nGender \nvarchar(15) \nNot null \nPhone number \nInt(13) \nNot null \nEmail \nInt(22) \nNot null \nlocation \nvarchar(23) \nNot null \nrole \nVachar(20) \nNot null \nCenter ID \nint (23) \nForeign key, Not null \n4.4 Conclusion \nIn summary, this chapter is mainly based on the study of the existing system, analysis of the \nrequirements for the system, processes and data modelin",
+    "page": 69,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.322684"
+  },
+  {
+    "id": "dac327daa626f7e7",
+    "text": "CHAPTER FIVE \nSystem Implementation, Testing and Validation \nThis section describes the implementation of the design models in of the system and also \nshows the different results generated by the system. Therefore, screen shots of the system will \nbe displayed to show how the system displays results given a command. \n5.1 System Functions \nThe Online health donation System provides the administrator with the rights such as managing \nuser accounts, verifying the donations and analyzing the entire system processes by the system \nadministrator/manager. The employees are able to receive and enter patient\u2019s details onto the \nsystem. \n5.1.1 Functions provided to all users. \nThe Online health donation System allows for authentication of users and security by prompting \nfor their user names and Passwords if they are to access the system services. \n5.1.2 Functions provided to the donors. \nThe donors when authenticated are able to view the details of their donations especially the how \nhis donations are being used, mostly to view the reports. \n5.1.3 Functions provided to the employee \nThe employees are able to interact with the system after they have logged in the system, \nwhereby thy can enter the donation details, patient\u2019s details into the system and on top of that \nreply messages to the donors and looking for more. \n5.1.4 Functions provided to the manager/administrator \nThe manager is able to view the amount deposited by the donor, and customers. The manager \nis also in control with his employees and the patients, he can add and delete the details of the \npatients and the employees.",
+    "page": 70,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.421588"
+  },
+  {
+    "id": "0aac533150de9392",
+    "text": "5.2 System map \nFigure 5.1: System Map showing functions provided by the system to each user \n\ni. \nThe donor is able to donate online \nii. Able to receive the notification \niii. Able to view the report \n\ni. \nVerifies donations \nii. Provides the feedback on actions performed by \nemployees \niii. Can add, delete and update details of the institute \niv. \ni. \nAuthenticate the employee \nii. \nCaptures the patient\u2019s details \niii. \nUpdate and feed the system with new \nevents \niv. \nReplying to the donors \n\nEmployee \nAdministrator \nDonor \nLogin \nPatient \nI. \nTo make appointments \nII. \nView notification of his \ntreatment",
+    "page": 71,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.552816"
+  },
+  {
+    "id": "3d7cbf72f612a200",
+    "text": "5.3 Sample Screen-shots \n5.3.1 System home page \nFigure 5.2 this image helps the donors and all users to access the system and interact with it as \nthey with \n\n5.3.3 Administrative view page \nThis is where admin logins into the system and access other pages for the system \n\n5.3.4 Employee\u2019s login page \nShows an employee\u2019s login page where he or she selects the employee option as his or her \nusername and fills in a password to login into the system where he or she add the can talk to \nthe donors, enter patients\u2019 information, and perform other duties.",
+    "page": 72,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.572028"
+  },
+  {
+    "id": "c7542b048f76f945",
+    "text": "5.3.5 donor form \n This is the form where the donor fills in to register with institute",
+    "page": 73,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.578132"
+  },
+  {
+    "id": "13dfaf0b4c449c2b",
+    "text": "5.3. donation form or donate now \nThis form donors help to fill in the mount they are donating, currency thy are using, method, \npurposes, and others as shown below, \n\n5.3.5 videos, \nThis page is to health the employees, show the patients, how fistula is caused, impacts, treated \nand give support. \n\n5.4 System Testing and Validation Results \nWe carried out system testing with an aim of finding out errors that were in the system. We also \nperformed system Validation to ensure that the system conformed to the then defined user \nneeds and requirements. This still in the process",
+    "page": 74,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.597791"
+  },
+  {
+    "id": "dd0cbdf8c4db3d7d",
+    "text": "5.4.1 System Testing Results \nThe Online health donation System is to be presented to users with the intent to find out errors \nand observing if it behaved as expected. The faults were corrected and the process was \nrepeated until the system was proven to be working according to users\u2019 specification and \nperformance requirements. \nTable 16: System Validation. \nthe Online Financial Transfer Management System for the health donation system was tested \nby users to see if it met their needs. The users found the system easy to use, fast, and effective \nin meeting their requirements. Feedback was gathered using a questionnaire to ensure the \nsystem worked correctly, especially with data input and output. Overall, the users were satisfied \nwith its performance. \n5.5 Conclusion \nIn summary, this chapter described the system functions provided to all users like donors, \nemployees, patients, managers or administrators and the various screen shots used in the \nsystem. Testing and validation were performed where the system was checked to see if it had \nany errors and whether it met the specified user requirement respectively to which the results \nwere gathered. \nFeature \nNumber of users out of \n10 \nPercentage \nof \nusers \nLearnability \n8 \n75 \nUser friendly \n9 \n95 \nImproves the transaction process \n8 \n80 \nSolves \nthe \nproblem \nof \ndelays \nby \ncustomers \nwanting \nto \nmake \ninstant \ntransactions \n9 \n90",
+    "page": 75,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.609792"
+  },
+  {
+    "id": "0a1f6b63ab4c3079",
+    "text": "CHAPTER SIX \nSummary, Recommendations, and Conclusion \n6.1 Summary \nAll the stated objectives of the health donation system to fight fistula at Budadiri Health Center \nIV in Sironko District have been successfully achieved. The system was designed to automate \nthe manual donation management process currently in use. Donors are now able to make \ndonations online, view their donation history, and update their account details. Donors can also \nchange their contact information and request new login credentials if they have already been \nregistered in the system. \nFor security reasons, each donor is given a unique username and password, which will be the \nonly way to access the system through a secure interface. The system administrator has overall \ncontrol and privileges. \n6.2 Recommendations \nFurther research is needed to address any weaknesses in the system, especially as new health \ncenters continue to emerge, each with unique operational requirements. Similar systems should \nbe developed for other health centers in Uganda that are still using manual processes. For \ninstance, an online records management system could make it easier for both donors and \nhealth centers to manage donation-related information. \n6.3 Future Work \nThe system should be extended to: \ni. Provide a platform where donors can interact through an inbuilt forum to discuss ongoing \ninitiatives and share experiences. \nii. Generate reports on the financial impact of donations, including tracking how funds are used. \niii. Offer transparency by displaying detailed information about specific projects funded by \ndonations.",
+    "page": 76,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.617493"
+  },
+  {
+    "id": "9cbfb2c98b881eb4",
+    "text": "6.4 Conclusions \nThe objectives of the health donation system for fighting fistula at Budadiri Health Center IV \nhave been achieved. The major strength of this system is its ability to facilitate proper online \ninteraction between donors and the health center. Donors can now easily make donations, view \nand print their donation history, and support ongoing projects. \nReferences \nBartel, M. (1996). \u201cIntegrated Health Management Systems: A Guide to Implementation Based \non the Experience in Developing Regions.\u201d Washington, DC: Institute for Democratic Strategies, \nHealth Occasional Paper Series. \nii. Collis, J. and Jarvis, R. (2000, December). How Donor-Driven Systems Support Health \nInterventions, The Institute of Global Health, Kingston University. \niii. Diamond, J. and Khemani, P. (2005, October). Introducing Online Health Donation Systems \nin Developing Countries. WP/05/196. \niv. Dorotinsky, B. (2003). Implementing Online Health Donation System Projects: The World \nBank Experience. \nv. Linda, B. (2008). Computerized Health Donation Systems: Transforming Input-Data into \nImpactful Health Outcomes. \nvi. Raimar, S. and Manuel, M. (2003). Health Systems and Their Role in Financial Management \nand Outcome Reviews, from www.Wanda Thibodeaux, Healthmanagement.com. \nvii. Rushinek, A. (1925). Health Information Management Systems. Retrieved April 3, 2007, \nfrom http://www.healthdata.com/doi/abs/10.1080/01969728508927769#. \nviii. Tooley, S. and Guthrie, J. (2003). Community-Based Health Management Systems. \nix. Wiley, J. (2013). Intelligent Systems in Health Management and Donation Monitoring. Edited \nBy: Daniel O'Leary, Online ISSN: 1099-1174. \n\nAppendix I: Interview Schedule Sample Questions for Health Donation System \ni. What is your opinion about the current donation management systems in your organization?",
+    "page": 77,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.634525"
+  },
+  {
+    "id": "51bfc9164a74b31d",
+    "text": "ii. What is your highest academic qualification? \niii. Do you have an efficient donation management and tracking system at Budadiri Health \nCenter IV? \niv. What are the expected roles of a donation management system in supporting fistula \ntreatment at your health center? \nv. Does your organization set targets and budgets for donation management and utilization? \nvi. What are some of the challenges you face with your current donation management process? \nvii.Is your current system for managing donations user-friendly? \nviii. What solutions do you think could best enhance your current donation management \nsystem? \nix. Does your system support data and information backups for donation records? \nx. What are your expectations from the new health donation system? \nxi. How do you rate the performance of the current system in managing donations? \nxii. How do you rate the reliability of the current donation management system? \nxiii. How do you rate the simplicity of using the current system? \nxiv. How do you rate the security of donor information and funds within the current system? \nAppendix II: Questionnaires \nDear Respondent, \nI am a final year BSIT student from Uganda Christian university (Mbale University college) \nconducting my final year research on Internet systems with a focus on the topic: Health \nDonation System to Fight Against Fistula; A Case Study of Budadiri Health Center IV in Sironko \nDistrict. This research is purely academic, and the information you provide will be treated with \nthe highest level of confidentiality. \nAny assistance you render me in answering these questions will be highly appreciated. \nPlease put a tick () in the spaces provided.",
+    "page": 78,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.668548"
+  },
+  {
+    "id": "0cb375a6d4b3aaab",
+    "text": "i. What is your position in the organization? \nii. Top Management \u2026\u2026. Middle Management \u2026\u2026. Operational Management \u2026\u2026. \niii. Number of years worked \n10 years and above\u2026\u2026. 5-10 years \u2026\u2026. 3-5 years \u2026\u2026 0-3 years \u2026. \niv. What is your highest educational qualification? \nCertificate \u2026\u2026\u2026 Diploma \u2026\u2026\u2026 Degree \u2026\u2026. Masters \u2026\u2026. PhD \u2026\u2026. \nv. Do you have a Donation Management System? \nNo \u2026\u2026. Yes \u2026\u2026 \nvi. Do you review your Donation Management System? \nNo \u2026\u2026. Yes \u2026\u2026. \nvii. Does your current system track donation allocations? \nNo \u2026\u2026\u2026 Yes \u2026\u2026\u2026. \nviii. Do you use your system to generate reports on donation impact? \nNo\u2026\u2026\u2026. Yes\u2026\u2026\u2026. \nix. What should the new system provide? \n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 \nx. How do you rate the costs associated with your current system? \nVery expensive\u2026\u2026. Expensive \u2026\u2026\u2026... Cheap \u2026\u2026\u2026. Very cheap\u2026\u2026. \nxi. How user-friendly is your current system? \nGood \u2026\u2026\u2026. Very good \u2026\u2026. Very fair \u2026\u2026\u2026\u2026. Fair\u2026\u2026\u2026\u2026\u2026\u2026.",
+    "page": 79,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.690024"
+  },
+  {
+    "id": "8ecd94b5873ad2aa",
+    "text": "Appendix III: The System Validation Questionnaire \ni. Is the new donation system easy to learn? \nYes \u2026\u2026\u2026. \nNo \u2026\u2026\u2026. \nii. Does the new system improve the donation management process? \nAgree \u2026\u2026\u2026 \nDisagree \u2026\u2026\u2026 \nNot sure \u2026\u2026\u2026. \niii. How would you rate the user-friendliness of the new health donation system? \nBelow 40% \u2026\u2026\u2026. \n50% \u2026\u2026\u2026. \n60% \u2026\u2026\u2026 \nAbove 80% \u2026\u2026... \niv. Does the new system capture all the required information from donors? \nYes \u2026\u2026\u2026. \nNo \u2026\u2026\u2026. \nv. Does the new system reduce delays and streamline the donation process? \nYes \u2026\u2026\u2026 \nNo \u2026\u2026\u2026 \nvi. Give any other comments \n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026",
+    "page": 80,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.716314"
+  },
+  {
+    "id": "78bd178995c08f29",
+    "text": "Appendix IV: Pseudo Code \nPseudo Code for Donation Transaction \nStart; \nDonor enters username and password \nIf username or password is invalid, return an error message \nElse \nReturn donor account details \nDonor enters the amount to be donated \nIf the amount is greater than the available balance, return an error message \nElse Process the donation and update the system \nPseudo Code for a Donor \nStart; \nIf donor enters username and password; \nIf username or password is invalid, return an error message \nElse \nReturn the donor registration page \nDonor enters personal details for the new account \nIf the donor is already registered, return to the donation page \nElse \nView donor account details.",
+    "page": 81,
+    "chunk_index": 0,
+    "filename": "Wampande_A_BSIT_2025.pdf",
+    "timestamp": "2026-03-01T21:45:51.725496"
+  }
+]

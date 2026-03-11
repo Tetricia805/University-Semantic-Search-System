@@ -1,0 +1,170 @@
+[
+  {
+    "id": "6409b276a4955d8a",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nTopic: Other Data Mining Techniques-Association Mining\nDr. Daphne Nyachaki Bitalo\nDepartment of Computing & Technology\nFaculty of Engineering, Design & Technology\nDSC3108: Big Data Mining and Analytics\nLecture 03 (BSCS, BSDS_3:1)",
+    "page": 1,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.581217"
+  },
+  {
+    "id": "1c716b9ffb0b439a",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCOURSE OVERVIEW\nBig Data\nFundamentals and Mining\nData Analytics\nPredictive analytics\nDescriptive analytics\nData Mining Techniques\nArchitectures, storage \nof data",
+    "page": 2,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.585216"
+  },
+  {
+    "id": "df95ab4028c80e66",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nLecture Objectives and Learning outcomes\nThe Objectives of this lecture are : \n\u2751Understand association data mining techniques that can be used \nfor predictive analyses\nBy the end of this lecture, students should be able to:\n\u2751Get practical experience working with association mining \nalgorithms and unsupervised learning.",
+    "page": 3,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.609602"
+  },
+  {
+    "id": "e1e444a480907ac9",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nLecture Overview\nData Mining Techniques\nAssociation mining parameters\nAssociation mining algorithms\nHands-on practical\nApplications of association \nmining",
+    "page": 4,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.613723"
+  },
+  {
+    "id": "aa6f77d4bc63630a",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nData Mining Techniques\n1. Data mining process: CRISP-DM methodology\n2. Data exploration and visualization\n3. Association rule mining\n4. Classification algorithms (Decision trees, Na\u00efve Bayes, \nSupport Vector Machines)\n5. Clustering algorithms (K-means, hierarchical clustering)\n6. Outlier detection",
+    "page": 5,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.617727"
+  },
+  {
+    "id": "b3ac81d12e9e320f",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCRISP-DM Method\nCRISP-DM (Cross-Industry Standard Process for Data Mining) \nis a widely used methodology that provides a framework for \nconducting data mining projects. It outlines a series of phases \nthat guide the process from business understanding to \ndeployment.\nDocumentation: Maintain clear documentation throughout the \nproject.",
+    "page": 6,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.623854"
+  },
+  {
+    "id": "961bcda89972269f",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCRISP-DM Method\nPhases of CRISP-DM:\n1. Business Understanding:\n\u2751Define the business objectives and goals.\n\u2751Identify the relevant data sources.\n\u2751Create a project plan.\n2. Data Understanding:\n\u2751Collect and gather the necessary data.\n\u2751Explore the data to understand its characteristics, quality, and \ncompleteness.\n\u2751Identify potential data quality issues.",
+    "page": 7,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.626852"
+  },
+  {
+    "id": "289aa6ad262c5d78",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCRISP-DM Method\n3. Data Preparation:\n\u2751Clean and preprocess the data to address any quality issues.\n\u2751Transform the data into a suitable format for analysis.\n\u2751Create features or attributes that are relevant to the problem.\n4. Modeling:\n\u2751Select appropriate data mining techniques based on the business \nobjectives.\n\u2751Build and train models using the prepared data.\n\u2751Evaluate the performance of the models.",
+    "page": 8,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.628853"
+  },
+  {
+    "id": "bfa2670382533611",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCRISP-DM Method\n5. Evaluation:\n\u2751Assess the quality and reliability of the models.\n\u2751Compare the performance of different models.\n\u2751Validate the models using unseen data.\n6. Deployment:\n\u2751Integrate the chosen model into the production environment.\n\u2751Monitor the model's performance and update it as needed.",
+    "page": 9,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.631853"
+  },
+  {
+    "id": "3ff1e71fcb1366e8",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nData exploration and visualisation \nIn data mining, exploration helps an analyst understand the \ndata, identify patterns, and communicate findings effectively.\nHandles various aspects such as;\nSummary Statistics: Calculate measures like mean, median, mode, standard deviation, \nand percentiles to get a basic understanding of the data distribution.\nData Profiling: Examine data types, missing values, outliers, and inconsistencies.\nUnivariate Analysis: Analyze individual variables to understand their distributions and \ncharacteristics.",
+    "page": 10,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.635102"
+  },
+  {
+    "id": "81fd6fb2ea033e98",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nData exploration and visualisation \nHandles various aspects such as;\nBivariate Analysis: Examine relationships between pairs of variables.\nMultivariate Analysis: Explore relationships among multiple variables.\nData Storytelling: Use visualizations to create compelling narratives and \ncommunicate insights effectively.",
+    "page": 11,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.641087"
+  },
+  {
+    "id": "988b508d461aa682",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining\n\u25cfThis technique discovers interesting relationships between \nitems in a large dataset. These relationships, typically \nrepresented as rules, can be used to make predictions or \nrecommendations.\n\u25cfThe technique uses unsupervised machine learning \nalgorithms to find the hidden rules (associations) in data\n\u25cfAssociation rule mining assigns key statistical parameters that \nare different from correlations (i.e. Support, Lift, Confidence)",
+    "page": 12,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.647091"
+  },
+  {
+    "id": "4dd7ca53e600858a",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining parameters\n1. Support \nSupport is a measure of how frequent a item or an item set appears in a \ndataset. For example, what is the support for the item set { Milk + Cheese } \neverytime a customer goes to a shop?",
+    "page": 13,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.649091"
+  },
+  {
+    "id": "a6ae7d0c3cb57e3a",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining parameters\n2. Confidence\nConfidence is a measure of how often this rule is found to be true. Or the \nprobability that an event will occur given that another event has occurred. \nSo what is the probability that a customer who purchases milk will also \npurchase cheese?",
+    "page": 14,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.651092"
+  },
+  {
+    "id": "8ad627c82054fa02",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining parameters\n3. Lift\nLift defines that strength of the relationship or association of purchasing \nmilk and cheese",
+    "page": 15,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.658439"
+  },
+  {
+    "id": "774fad6f687e2de1",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining algorithms\n1. Apriori algorithm\n\u25cfThe Apriori Algorithm searches through small datasets to identify \ndifferent rules(associations). In this algorithm, there are product clusters \nthat pass frequently, and then strong relationships between these \nproducts and other products are sought.\n\u25cfIt's designed to efficiently discover frequent itemsets and association \nrules in small datasets.\nAssociation rule: A rule of the form X \u2192 Y, where X and Y are itemsets. X is called the antecedent, \nand Y is called the consequent.\nSupport: The fraction of transactions that contain both X and Y.\nConfidence: The probability that Y will occur given that X has occurred.",
+    "page": 16,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.661439"
+  },
+  {
+    "id": "1951e11b9f4aa020",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining algorithms\n2. FP-Growth algorithm\n\u25cfThe frequent pattern growth algorithm also uses unsupervised \nlearning but is more efficient than apriori algorithm\n\u25cfThe algorithm uses a divide-and-conquer approach to generate \nfrequent itemsets efficiently. The main idea of the FP-growth \nalgorithm is to represent the dataset in a compact form called the \nfrequent pattern tree\n\u25cfLimited to categorical data only.",
+    "page": 17,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.664442"
+  },
+  {
+    "id": "cce30a35998ce619",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nAssociation rule mining algorithms\n3. ECLAT algorithm\n\u25cfEquivalence Class Clustering and List Intersection offers a more \nefficient approach compared to Apriori, especially for dense \ndatasets.\nKey Concepts:\n\u25cfEquivalence class: A group of items that always appear together in \ntransactions.\n\u25cfItem prefix: The initial part of an itemset.\n\u25cfItem list: A list of transactions that contain a specific item.",
+    "page": 18,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.668439"
+  },
+  {
+    "id": "d672d5f3afe6292b",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nApplications of association mining\nMarket basket analysis: Identifying products that are frequently purchased \ntogether.\nRecommendation systems: Suggesting items to users based on their past \npurchases or preferences.\nWeb usage mining: Analyzing user behavior on a website to improve its \ndesign.\nMedical diagnosis: Identifying patterns in patient data to assist in \ndiagnosis.",
+    "page": 19,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.675285"
+  },
+  {
+    "id": "28ec625b1f71ca4f",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nIn-class practical\nImport the necessary libraries for association rule mining:\nLibraries in python:\nmlextend, \napyori,\nApriori\nUse the datasets provided on Moodle",
+    "page": 20,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.678285"
+  },
+  {
+    "id": "38e97b8184b3e0c5",
+    "text": "info@ucu.ac.ug\nucu.ac.ug\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nhttps://ucu.ac.ug/\ninfo@ucu.ac.ug\nhttps://ucu.ac.ug/\ninfo@ucu.ac.ug\n@ugandachristianuniversity\n@UCUniversity\n@UgandaChristianUniversity\nhttps://ucu.ac.ug/\ninfo@ucu.ac.ug\nP.O. Box 4 Mukono, Uganda\nTel: 256-312-350800\nhttps://ucu.ac.ug/\nEmail: info@ucu.ac.ug. \nUganda Christian University\nhttps://cse.ucu.ac.ug/\n@ucu_ComputEng\n@ucucomputeng\nTel: +256 (0) 312 350 863 | WhatsApp: +256 (0) 708 114 300\nDepartment of Computing & Technology\nFACULTY OF ENGINEERING, DESIGN AND TECHNOLOGY\ninfo@ucu.ac.ug\nEmail: dct-info@ucu.ac.ug",
+    "page": 21,
+    "chunk_index": 0,
+    "filename": "Big_Data_Mining_Lecture3_Mining_Techniques.pdf",
+    "timestamp": "2026-03-01T21:23:14.683285"
+  }
+]

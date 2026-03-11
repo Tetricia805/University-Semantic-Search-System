@@ -393,7 +393,7 @@ class SemanticSearchEngine:
                 'filename': chunk['filename'],
                 'page': chunk['page'],
                 'chunk_index': chunk['chunk_index'],
-                'text_preview': chunk['text'][:200] + ('...' if len(chunk['text']) > 200 else ''),
+                'text_preview': chunk['text'][:800] + ('...' if len(chunk['text']) > 800 else ''),
                 'timestamp': chunk['timestamp']
             }
             vectors.append((chunk['id'], embedding.tolist(), metadata))
@@ -476,13 +476,19 @@ class SemanticSearchEngine:
             
             # Prepare vectors array
             embeddings = np.array([v[1] for v in vectors], dtype='float32')
-            
-            # Add to index
-            if self.faiss_index.is_trained:
-                self.faiss_index.add(embeddings)
-            else:
-                # For non-trained indexes, add directly
-                self.faiss_index.add(embeddings)
+            if len(embeddings) == 0:
+                return
+
+            # IndexIVFFlat requires training before add; needs at least nlist vectors
+            if hasattr(self.faiss_index, "is_trained") and not self.faiss_index.is_trained:
+                n_required = self.config.faiss_nlist
+                if len(embeddings) < n_required:
+                    # Too few vectors for IVF training; switch to Flat index
+                    logger.info(f"Switching to Flat index (only {len(embeddings)} vectors, need {n_required} for IVF)")
+                    self.faiss_index = faiss.IndexFlatL2(embeddings.shape[1])
+                else:
+                    self.faiss_index.train(embeddings)
+            self.faiss_index.add(embeddings)
             
             # Store metadata
             for v in vectors:
@@ -694,9 +700,12 @@ class SemanticSearchEngine:
     def get_all_cached_chunks(self) -> List[Dict]:
         """Return all chunks from cache (for keyword index build). Per PDF Section 2–3."""
         chunks = []
-        for f in os.listdir(self.config.cache_dir):
+        cache_dir = getattr(self.config, 'cache_dir', None)
+        if not cache_dir or not os.path.isdir(cache_dir):
+            return chunks
+        for f in os.listdir(cache_dir):
             if f.endswith('.json') and f != 'documents.json':
-                path = os.path.join(self.config.cache_dir, f)
+                path = os.path.join(cache_dir, f)
                 try:
                     with open(path, 'r') as fp:
                         data = json.load(fp)

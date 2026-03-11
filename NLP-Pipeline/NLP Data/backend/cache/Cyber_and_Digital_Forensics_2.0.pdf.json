@@ -1,0 +1,74 @@
+[
+  {
+    "id": "844405f83b46fd10",
+    "text": "2/5/2025\n1\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCatherine Bwire\n(ITIL,CISA, CISM,CCNA, CEH, ISO27001,ISO27701 LI)\nDepartment of Computing & Technology\nFaculty of Engineering, Design & Technology\nCybersecurity & Digital Forensics\nLegal and Ethical issues Related to Digital Forensics\n2025\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nLecture Introduction\n\u2022\nDigital Forensics is a vital tool in the fight against Cyber Crime, but it also raises legal and Ethical issues \nthat need to be addressed.\n\u2022\nThe legal issues related to Digital Forensics revolve around the admissibility of digital evidence in court, \nthe Chain of Custody and the qualifications of the forensic examiner..",
+    "page": 1,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.194266"
+  },
+  {
+    "id": "b6d6227555f2de0c",
+    "text": "2/5/2025\n2\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nLegal and Ethical issues \na) Admissibility of digital evidence in court\nDigital Forensics involves the collecting, preserving, analyzing, and presenting digital evidence in court. \nTherefore, to be admissible in court, evidence must be collected lawfully and preserved without changing \nor damaging it.\nAdditionally, a certified professional must analyze the evidence\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nLegal and Ethical issues\nThe Chain of Custody is another legal concern, as it must be documented and maintained for evidence to \nbe admissible.\n1. What is the Chain of Custody? \n2. Why is it key in digital forensics investigations?\nb) Chain of Custody",
+    "page": 2,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.198295"
+  },
+  {
+    "id": "2e645ffd0de0a90e",
+    "text": "2/5/2025 3 A Complete Education for A Complete Person P.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug Founded by the Province of the Church of Uganda. Chartered by the Government of Uganda Legal and Ethical issues Ethical issues related to Digital Forensics mainly involve; a) privacy and confidentiality The Digital Forensics investigator must respect the privacy of the individual and only collect data that is relevant to the investigation. a) the use of forensic technology Forensic Technology can be good, powerful and intrusive \u2013 Collecting data without individuals knowledge or consent. It is important that these are used responsibly and used only when necessary. a) and the use of data collected. The Forensic examiner must maintain the individual\u2019s confidentiality and ensure that the data is only used for the intended purpose. We shall get to understand these better when we get to the Case studies and labs. b) Other Legal and Ethical Issues A Complete Education for A Complete Person P.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug Founded by the Province of the Church of Uganda. Chartered by the Government of Uganda Case Study: - Assignment 1 Facebook Cambridge Analytica Scandal Submission due date: s (7th February 2025 23:59hrs) In 2018, it as discovered that face book had allowed the political consulting firm Cambridge Analytica to access the personal data of millions of users without their consent. This raised ethical issues about the use of personal data and the responsibility of companies to protect users\u2019 privacy. Digital Forensics was used to investigate the data breach and determine the extent of damage. Questions: 1. What are some of the sensitive and personal data that may be collected during a digital Forensics Investigation? 2. How does Uganda's data privacy law address this type of case, and what rights does it grant to individuals? (Describe each of the rights in the context of the scenario mentioned above) 3. Discuss the role of the General Data Protection Regulation (GDPR) in addressing data privacy issues. How might the GDPR have influenced the outcome of the Cambridge Analytica case if it had been in effect at the time?",
+    "page": 3,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.212145"
+  },
+  {
+    "id": "b44cd4a908a1b401",
+    "text": "2/5/2025\n4\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nWhat is Digital Evidence?\nDigital Evidence is defined as any type of file stored on a device, such as a text file, a document, an image \nor an executable file. \nIt is any information of probative value that is either stored or transmitted in a digital form.\nLocard\u2019s Exchange principle states that everyone who enters and exits a crime scene leaves something of \nthemselves behind. \nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nWhat is Digital Evidence?\nDigital information can be gathered:\n\u2022\nFrom the media\n\u2022\nFrom the live capture of packets being transmitted\n\u2022\nFrom any other electronic source",
+    "page": 4,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.218190"
+  },
+  {
+    "id": "eed592fee3a3315c",
+    "text": "2/5/2025\n5\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nSources of Digital Evidence\nDigital Evidence is found in files such as :\n\u2022\nEmails\n\u2022\nLog files\n\u2022\nInternet browser histories, cookies\n\u2022\nGraphic files\n\u2022\nServer logs\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nSources of Digital Evidence continued\n\u2022\nHard Disk\nMainly evidence that is gathered from hard disks of the seized system.\nThe data is stored in different file formats such as text, pictures, video files, computer program files etc.\n\u2022\nThumb Drive\nThumb drive is another important electronic storage device with USB connection",
+    "page": 5,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.229989"
+  },
+  {
+    "id": "cfbf6ccc4f25e258",
+    "text": "2/5/2025\n6\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nSources of Digital Evidence continued\n\u2022\nMemory Card\nMemory card is a removeable electronic storage device, used in many devices such as digital cameras, \nPDAs, computers etc.\nData present in the memory card is not lost when power is turned off as it is a secondary storage\n\u2022\nSmart Card\nA smart Card has memory and stores encryption keys or password and digital certificates\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nSources of Digital Evidence continued\n\u2022\nDongle\nA copy protection device provided with software that is plugged into a computer port.\n\u2022\nBiometric Scanner\nIt is a device connected to a computer system that identifies the physical characteristics of an individual \nmainly for identification purposes",
+    "page": 6,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.234018"
+  },
+  {
+    "id": "707ddd8277bfbd3e",
+    "text": "2/5/2025\n7\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nSources of Digital Evidence continued\n\u2022\nDigital Camera \u2013 Images and videos\nEvidence is found in images,removeable cartridges, videos, sound, date and time stamp\n\u2022\nModem\nIt is used by computers to communicate over telephone lines.\nEvidence is found on the device itself.\n\u2022\nPrinter\nPrinters contain memory buffers and store data.\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nSources of Digital Evidence continued\n\u2022\nScanner\nIt is an optional device connected to a computer, which scans documents and transmits to a computer \nnetwork.\nEven physical marks and damages on the scanner can become evidence",
+    "page": 7,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.246234"
+  },
+  {
+    "id": "75b32b5645bfc89d",
+    "text": "2/5/2025\n8\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCharacteristics of Digital Evidence\n\u25aaAdmissible\nEvidence must be admissible in the courts of law and must be related to the fact being proved.\n\u25aaAuthentic\nEvidence must be real and related to the incident\n\u25aaComplete\nEvidence must prove the attacker\u2019s action or his innocence\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\nCharacteristics of Digital Evidence continued\nReliable\nThere must be no doubt about the authenticity or veracity of the evidence\nBelievable\nEvidence must be clear and understandable by the judges/jury\nReproducible\nEvidence must be reproducible",
+    "page": 8,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.250261"
+  },
+  {
+    "id": "ea888cb89bfd4a33",
+    "text": "2/5/2025\n9\nA Complete Education for A Complete Person\nP.O. Box 4, Mukono, Uganda, Plot 67-173, Bishop Tucker Road, Mukono Hill | Tel: +256 (0) 312 350 800 Email: info@ucu.ac.ug Web: https://ucu.ac.ug\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda\n@ugandachristianuniversity\n@UCUniversity\n@UgandaChristianUniversity\nP.O. Box 4 Mukono, Uganda\nTel: 256-312-350800\n https://ucu.ac.ug/ \nEmail: info@ucu.ac.ug. \nUganda Christian University\nhttps://cse.ucu.ac.ug/\n@ucu_ComputEng\n@ucucomputeng\nTel: +256 (0) 312 350 863 | WhatsApp: +256 (0) 708 114 300\nDepartment of Computing & Technology\nFACULTY OF ENGINEERING, DESIGN AND TECHNOLOGY\nEmail: dct-info@ucu.ac.ug\nNEXT TOPICS: \n1. Basic Concepts of digital forensics and Digita\nEvidence\n2. Rule of evidence and antiforensics",
+    "page": 9,
+    "chunk_index": 0,
+    "filename": "Cyber_and_Digital_Forensics_2.0.pdf",
+    "timestamp": "2026-03-01T21:57:26.262789"
+  }
+]

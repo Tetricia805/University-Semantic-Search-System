@@ -1,0 +1,34 @@
+[
+  {
+    "id": "3839d0bac0366380",
+    "text": "BSCS III\nMTH 3108: Numerical Computing and Optimization, Year 3, Page 1 of 4\nFACULTY OF ENGINEERING, DESIGN AND TECHNOLOGY\nDEPARTMENT OF COMPUTING AND TECHNOLOGY\nADVENT 2024 SEMESTER EXAMINATIONS\nPROGRAM: Bachelor of Science in Computer Science\nYEAR: III\nSEMESTER: 1\nCOURSE CODE: MTH 3108\nCOURSE NAME: Numerical Computing and Optimization\nEXAMINATION TYPE: Theory\nEXAMINATION DATE: December 2024\nTIME ALLOWED: 3 HOURS\n1. The general Uganda Christian University examination guidelines, academic and financial policies\napply to this examination. Violating any of the policies by the student automatically makes this\nexamination attempt void, even if you have completed and submitted the answer booklet.\n2. Answer all questions.\n(i) Section A (40 Marks). Attempt only TWO (2) questions from this section; every question\ncarries 20 marks.\n(ii) Section B (60 Marks). Attempt only THREE (3) questions from this section; every question\ncarries 20 marks.\n3. Answers to every question should start on a new paper within the examination answer booklet.\n4. Uganda Christian University or its officials reserve the right of admission or disqualification from\nthis exam.\n\u00a9 Uganda Christian University | Examinations for Advent 2024 Semester.\n\u201cA Complete Education for A Complete Person\u201d\nFounded by the Province of the Church of Uganda. Chartered by the Government of Uganda",
+    "page": 1,
+    "chunk_index": 0,
+    "filename": "NCO.pdf",
+    "timestamp": "2026-03-03T13:38:42.561529"
+  },
+  {
+    "id": "0f8990c82e4304d7",
+    "text": "BSCS III MTH 3108: Numerical Computing and Optimization, Year 3, Page 2 of 4 SECTION A (40 marks) Question 1 (a) State the name and defining equations for any five finite difference operators. (5 marks) (b) Consider the data set x 0 10 20 30 y 0 0.174 0.347 0.518 . (i) Construct a backward difference table. (4 marks) (ii) Use your results in (b) (i) to find \u00b5f 3 2 and E2\u2206y0. (3 marks) (c) Prove the finite difference relation, \u2206\u2207\u2261\u2206\u2212\u2207. (4 marks) (d) Suppose a function f(x) = ex, compute \u22062f(x). (4 marks) Question 2 (a) Consider an integral S = Z b a f(x) dx. (i) Explain why the numerical method is used to approximate the value S? (2 marks) (ii) State one limitation of using the numerical method to approximate S. (1 mark) (b) Use Simpson\u2019s 1 3 rule to approximate the integral Z 4 0 f(x)dx, where the values for the function f(x) are in the table x 0 1 2 3 4 f(x) 2 1 2 3 5 . (5 Marks) (c) The velocity of an object as a function of time is given by: Time (t) 3 5 7 9 11 Velocity (v(t)) 12 16 24 15 33 . Use the Trapezoidal rule to calculate the distance travelled by the object on [3, 11]. (5 marks) (d) Use the mid point rule with seven ordinates to find an estimate for Z 12 0 ln(x2 + 5) dx. Give your answer to three significant figures. (7 marks) Question 3 (a) Justify the use of Numerical Differentiation. (2 marks) (b) Given the following data, x 6.0 6.1 6.2 6.3 6.4 f(x) 0.1750 \u20130.1998 \u20130.2223 \u20130.2422 \u20130.2596 find; (i) f \u2032(6.2) using a second order method, (4 marks) \u00a9 Uganda Christian University | Examinations for Advent 2024 Semester. Department of Computing & Technology | Faculty of Engineering, Design and Technology",
+    "page": 2,
+    "chunk_index": 0,
+    "filename": "NCO.pdf",
+    "timestamp": "2026-03-03T13:38:44.019044"
+  },
+  {
+    "id": "d1692ce31f75af35",
+    "text": "BSCS III MTH 3108: Numerical Computing and Optimization, Year 3, Page 3 of 4 (ii) f \u2032(6.0), (4 marks) (iii) f \u2032\u2032(6.3). (4 marks) (c) Derive the central order method for computing f \u2032\u2032(x) and state the expression of the truncation error. (4 marks) (d) Describe the effect of the size of the step length h in approximating f \u2032(x) using the backward formula. (2 marks) SECTION B (60 marks) Question 4 (a) Consider the data set x 15 18 22 y 24 37 25 . Draw a table of divided differences and use it to state Newton\u2019s interpolating polynomial. (6 marks) (b) Let f(x) = 3x with x0 = 0, x1 = 1, and x2 = 2. (i) Use Lagrange interpolation to find a polynomial Pn(x) that agrees with f(x) at the given points. (8 marks) (ii) Show that 2 X n=0 Lk(x) = 1. (2 marks) (c) Given the data below, Time 0 1 2 3 4 Distance 0 6 39 67 100 find the distance traveled when t = 2.3. (4 marks) Question 5 (a) Derive the Newton Raphson\u2019s process, xn+1 = xn \u2212f(xn) f\u2032(xn) for approximating the simple root \u03be of a non-linear equation f(x) = 0. (4 marks) (b) Use Newton Raphson\u2019s method to approximate \u221a 2 with x0 = 1. (4 marks) (c) Use the bisection method up to the fifth iteration to approximate the root of x2 = 3 on [1, 2]. (5 marks) (d) State one advantage and one disadvantage of the Newton Raphson\u2019s process as compared to; (i) Bisection algorithm (2 marks) (ii) Regular false (2 marks) (iii) Secant Method (2 marks) (e) Why could the Bisection method fail when approximating a root of the non-linear equation x3 + 4 = 0, on the interval [2, 4]? (1 mark) \u00a9 Uganda Christian University | Examinations for Advent 2024 Semester. Department of Computing & Technology | Faculty of Engineering, Design and Technology",
+    "page": 3,
+    "chunk_index": 0,
+    "filename": "NCO.pdf",
+    "timestamp": "2026-03-03T13:38:47.046486"
+  },
+  {
+    "id": "03612154f8f27398",
+    "text": "BSCS III\nMTH 3108: Numerical Computing and Optimization, Year 3, Page 4 of 4\nQuestion 6\n(a) Consider the linear system,\n3x + 60y\n=\n63,\n32x + 8y\n=\n40.\nSolve the system using complete pivoting.\n(4 marks)\n(b) Use the LU decomposition to solve the system of linear equations with A =\n\n3\n\u22122\n\u22122\n6\n\nand\nb =\n 4\n2\n\n.\n(4 marks)\n(c) By deriving the equation Xm+1 = C + GXm, describe the difference between Jacobi\u2019s method\nand Gauss-Seidel\u2019s method.\n(6 marks)\n(d) Use A =\n\n\n10\n1\n1\n\u22121\n20\n1\n1\n\u22122\n10\n\nand b =\n\n\n24\n21\n300\n\nto find T and C for the Jacobi iteration scheme\nand hence, determine x(1) given\n\n\n0\n0\n0\n\n.\n(6 marks)\n\u25c0END \u25b6\n\u00a9 Uganda Christian University | Examinations for Advent 2024 Semester.\nDepartment of Computing & Technology | Faculty of Engineering, Design and Technology",
+    "page": 4,
+    "chunk_index": 0,
+    "filename": "NCO.pdf",
+    "timestamp": "2026-03-03T13:38:47.321758"
+  }
+]
