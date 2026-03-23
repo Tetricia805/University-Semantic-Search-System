@@ -2146,3 +2146,218 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-03-23 18:13:46,003 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
 2026-03-23 18:13:46,434 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
 2026-03-23 18:13:46,509 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:47,519 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:47,594 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-23 18:13:47,997 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:48,341 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:48,697 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:49,067 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:49,138 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:49,312 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:49,495 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:49,497 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-23 18:13:49,565 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:49,673 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:49,747 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:49,906 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:49,984 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-23 18:13:50,113 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-23 18:13:50,326 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:50,396 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:50,459 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:50,536 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:50,848 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:51,210 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:51,834 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-23 18:13:52,417 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:52,700 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:57,069 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:57,136 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:57,459 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:57,527 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:57,905 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:58,268 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:58,341 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:58,374 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:58,782 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-23 18:13:58,800 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-23 18:13:59,117 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-23 18:13:59,139 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-23 18:14:01,258 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:14:01,326 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-23 18:14:01,336 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:14:01,405 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-23 18:14:01,685 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-23 18:14:02,058 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-23 18:14:02,272 - _semantic_engine - INFO - Model loaded (dimension: 384, device: cpu)
+2026-03-23 18:14:02,273 - _semantic_engine - INFO - Setting up FAISS index...
+2026-03-23 18:14:02,316 - _semantic_engine - INFO - Model loaded (dimension: 384, device: cpu)
+2026-03-23 18:14:02,317 - _semantic_engine - INFO - Setting up FAISS index...
+2026-03-23 18:14:02,442 - _semantic_engine - INFO - Loaded existing FAISS index with 54 vectors
+2026-03-23 18:14:02,468 - _semantic_engine - INFO - Loaded existing FAISS index with 54 vectors
+2026-03-23 18:14:02,474 - _semantic_engine - INFO - FAISS index ready
+2026-03-23 18:14:02,475 - _semantic_engine - INFO - FAISS index ready
+2026-03-23 18:14:02,540 - _semantic_engine - INFO - Stats updated: 54 chunks, 1 documents
+2026-03-23 18:14:02,540 - _semantic_engine - INFO - Stats updated: 54 chunks, 1 documents
+2026-03-23 18:14:02,542 - _semantic_engine - INFO - Search engine initialized successfully!
+2026-03-23 18:14:02,542 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:14:02,577 - _semantic_engine - INFO - Search engine initialized successfully!
+2026-03-23 18:14:07,933 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774276953806-Agaba_F_BSCEE_2025.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc2OTUzODA2LUFnYWJhX0ZfQlNDRUVfMjAyNS5wZGYiLCJpYXQiOjE3NzQyNzgyMDgsImV4cCI6MTc3NDI4MTgwOH0.o5LU3N0vc9IgGGUSdHK3NJoc_mEVaB8MW_EXma8eS5s "HTTP/1.1 200 OK"
+2026-03-23 18:14:08,347 - _semantic_engine - INFO - Found 54 results
+2026-03-23 18:14:10,412 - backend.app.services - INFO - Supabase poll: indexed 1 new object(s) from academic-docs
+2026-03-23 18:14:16,531 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:14:17,015 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:14:17,304 - _semantic_engine - INFO - Found 54 results
+2026-03-23 18:14:23,967 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:15:24,954 - _semantic_engine - WARNING - Clearing entire index
+2026-03-23 18:15:25,089 - _semantic_engine - INFO - Index cleared
+2026-03-23 18:17:04,211 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:17:27,670 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:17:29,005 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:17:31,580 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:19:22,872 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:19:50,679 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:19:56,823 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:19:56,860 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:20:01,747 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:20:58,244 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774279246658-Ahumuza_BIBM_2023__1_.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc5MjQ2NjU4LUFodW11emFfQklCTV8yMDIzX18xXy5wZGYiLCJpYXQiOjE3NzQyNzkyNTEsImV4cCI6MTc3NDI4Mjg1MX0.ms0PcGVuGVGCRRUeygpdvlkgyaaVOndMn1vUfMgJYLI "HTTP/1.1 200 OK"
+2026-03-23 18:21:59,347 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774279313372-Data_Structures_and_Algorithms_Theory.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc5MzEzMzcyLURhdGFfU3RydWN0dXJlc19hbmRfQWxnb3JpdGhtc19UaGVvcnkucGRmIiwiaWF0IjoxNzc0Mjc5MzE2LCJleHAiOjE3NzQyODI5MTZ9.Ev2f7hlBoID_XwZA5afw4Jkn4ubIbfBuSku2gzwx73c "HTTP/1.1 200 OK"
+2026-03-23 18:21:59,785 - _semantic_engine - INFO - Processing PDF: Data_Structures_and_Algorithms_Theory.pdf
+2026-03-23 18:21:59,965 - _semantic_engine - INFO - Processed Data_Structures_and_Algorithms_Theory.pdf: 3 pages, 3 chunks
+2026-03-23 18:22:00,006 - _semantic_engine - INFO - Generating embeddings for 3 chunks...
+2026-03-23 18:22:01,025 - _semantic_engine - INFO - Generated 3 embeddings
+2026-03-23 18:22:01,027 - _semantic_engine - INFO - Adding 3 vectors to FAISS index...
+2026-03-23 18:22:01,238 - _semantic_engine - INFO - Added to FAISS index. Total: 3
+2026-03-23 18:22:01,244 - _semantic_engine - INFO - Indexing complete: 1 files, 3 chunks
+2026-03-23 18:22:31,926 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:22:32,412 - _semantic_engine - INFO - Found 3 results
+2026-03-23 18:22:37,437 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:22:40,471 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:22:40,804 - _semantic_engine - INFO - Found 3 results
+2026-03-23 18:22:46,595 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:23:00,602 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:23:10,309 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:23:15,445 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:23:21,672 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:23:22,178 - _semantic_engine - INFO - Found 3 results
+2026-03-23 18:23:30,571 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:23:30,994 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:23:33,837 - _semantic_engine - INFO - Found 3 results
+2026-03-23 18:23:38,900 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:24:32,230 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:24:32,540 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:24:32,918 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774279246658-Ahumuza_BIBM_2023__1_.pdf "HTTP/2 200 OK"
+2026-03-23 18:24:39,407 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774279246658-Ahumuza_BIBM_2023__1_.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc5MjQ2NjU4LUFodW11emFfQklCTV8yMDIzX18xXy5wZGYiLCJpYXQiOjE3NzQyNzk0NzIsImV4cCI6MTc3NDI4MzA3Mn0.Kt6rqzgyO4_iG-5dgduiGtzfRmq2lkq2Xvx5P_2ps7c "HTTP/1.1 200 OK"
+2026-03-23 18:24:45,040 - backend.app.services - INFO - Supabase poll: indexed 1 new object(s) from academic-docs
+2026-03-23 18:25:10,015 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774279475569-Chibita_Indigenous_Language_Media_and_Freedom_of_Expression_in_Uganda_2016.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc5NDc1NTY5LUNoaWJpdGFfSW5kaWdlbm91c19MYW5ndWFnZV9NZWRpYV9hbmRfRnJlZWRvbV9vZl9FeHByZXNzaW9uX2luX1VnYW5kYV8yMDE2LnBkZiIsImlhdCI6MTc3NDI3OTUwMiwiZXhwIjoxNzc0MjgzMTAyfQ.3o7ItDe5Y_9q_8UBEcc-ukwyzjtUuCvIlgO65dr1JiA "HTTP/1.1 200 OK"
+2026-03-23 18:25:41,645 - _semantic_engine - INFO - Processing PDF: Chibita_Indigenous_Language_Media_and_Freedom_of_Expression_in_Uganda_2016.pdf
+2026-03-23 18:25:50,741 - _semantic_engine - WARNING - No text extracted from Chibita_Indigenous_Language_Media_and_Freedom_of_Expression_in_Uganda_2016.pdf
+2026-03-23 18:25:50,743 - _semantic_engine - INFO - Indexing complete: 0 files, 0 chunks
+2026-03-23 18:26:39,037 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774279590253-NASSIMBWA_L_BBA_2023.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc5NTkwMjUzLU5BU1NJTUJXQV9MX0JCQV8yMDIzLnBkZiIsImlhdCI6MTc3NDI3OTU5NCwiZXhwIjoxNzc0MjgzMTk0fQ.QIXSsSFY3k4R71S7jyCM5uv0egjupzAi_QQbFgPnsE0 "HTTP/1.1 200 OK"
+2026-03-23 18:26:40,532 - _semantic_engine - INFO - Processing PDF: NASSIMBWA_L_BBA_2023.pdf
+2026-03-23 18:26:42,270 - _semantic_engine - INFO - Processed NASSIMBWA_L_BBA_2023.pdf: 37 pages, 37 chunks
+2026-03-23 18:26:42,483 - _semantic_engine - INFO - Generating embeddings for 37 chunks...
+2026-03-23 18:27:31,599 - _semantic_engine - INFO - Generated 37 embeddings
+2026-03-23 18:27:31,608 - _semantic_engine - INFO - Adding 37 vectors to FAISS index...
+2026-03-23 18:27:31,818 - _semantic_engine - INFO - Added to FAISS index. Total: 40
+2026-03-23 18:27:31,839 - _semantic_engine - INFO - Indexing complete: 1 files, 37 chunks
+2026-03-23 18:28:48,429 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:28:49,031 - _semantic_engine - INFO - Found 40 results
+2026-03-23 18:29:00,969 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:29:01,401 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:29:04,916 - _semantic_engine - INFO - Found 40 results
+2026-03-23 18:29:13,258 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:29:51,865 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:29:52,149 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:35:00,350 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:35:02,525 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:36:38,104 - _semantic_engine - WARNING - Clearing entire index
+2026-03-23 18:36:38,281 - _semantic_engine - INFO - Index cleared
+2026-03-23 18:37:22,252 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:37:29,815 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:37:29,894 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:37:36,624 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:38:55,574 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774280325984-Apiyo_S_BHRM_2024.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0MjgwMzI1OTg0LUFwaXlvX1NfQkhSTV8yMDI0LnBkZiIsImlhdCI6MTc3NDI4MDMyOCwiZXhwIjoxNzc0MjgzOTI4fQ.edN5eNRVbNGK1qKFDenIVZXV661QzXsA-BK1tDNJx3o "HTTP/1.1 200 OK"
+2026-03-23 18:39:50,386 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774280376681-Okwir_D_BBA_2024.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0MjgwMzc2NjgxLU9rd2lyX0RfQkJBXzIwMjQucGRmIiwiaWF0IjoxNzc0MjgwMzg0LCJleHAiOjE3NzQyODM5ODR9.Q8x1Xn0OZLZQyYvOyG2T-e2Z8NWMxAeSzTWdDcEfleQ "HTTP/1.1 200 OK"
+2026-03-23 18:39:55,398 - _semantic_engine - INFO - Processing PDF: Okwir_D_BBA_2024.pdf
+2026-03-23 18:40:05,613 - _semantic_engine - INFO - Processed Okwir_D_BBA_2024.pdf: 56 pages, 56 chunks
+2026-03-23 18:40:05,688 - _semantic_engine - INFO - Generating embeddings for 56 chunks...
+2026-03-23 18:41:14,282 - _semantic_engine - INFO - Generated 56 embeddings
+2026-03-23 18:41:14,398 - _semantic_engine - INFO - Adding 56 vectors to FAISS index...
+2026-03-23 18:41:14,639 - _semantic_engine - INFO - Added to FAISS index. Total: 56
+2026-03-23 18:41:14,671 - _semantic_engine - INFO - Indexing complete: 1 files, 56 chunks
+2026-03-23 18:41:20,820 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:41:21,778 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:41:22,242 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774280325984-Apiyo_S_BHRM_2024.pdf "HTTP/2 200 OK"
+2026-03-23 18:41:27,322 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774280325984-Apiyo_S_BHRM_2024.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0MjgwMzI1OTg0LUFwaXlvX1NfQkhSTV8yMDI0LnBkZiIsImlhdCI6MTc3NDI4MDQ4MiwiZXhwIjoxNzc0Mjg0MDgyfQ.NcmjCN0mgUBtQfyCJLpcl7Ziytq05M7zYbVKRJAy_8k "HTTP/1.1 200 OK"
+2026-03-23 18:41:28,311 - backend.app.services - INFO - Supabase poll: indexed 1 new object(s) from academic-docs
+2026-03-23 18:41:57,096 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:41:58,981 - _semantic_engine - INFO - Found 56 results
+2026-03-23 18:42:03,374 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:42:03,560 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:42:03,908 - _semantic_engine - INFO - Found 56 results
+2026-03-23 18:42:09,058 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:42:50,868 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774280561028-Cwinyaai_W_BDIV_2025.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0MjgwNTYxMDI4LUN3aW55YWFpX1dfQkRJVl8yMDI1LnBkZiIsImlhdCI6MTc3NDI4MDU2NiwiZXhwIjoxNzc0Mjg0MTY2fQ.PaqbBGK4vkbdieAyvcoy3nwaDPVldEo51orYuDiqAfM "HTTP/1.1 200 OK"
+2026-03-23 18:42:54,937 - _semantic_engine - INFO - Processing PDF: Cwinyaai_W_BDIV_2025.pdf
+2026-03-23 18:42:59,835 - _semantic_engine - INFO - Processed Cwinyaai_W_BDIV_2025.pdf: 66 pages, 66 chunks
+2026-03-23 18:43:00,034 - _semantic_engine - INFO - Generating embeddings for 66 chunks...
+2026-03-23 18:44:08,603 - _semantic_engine - INFO - Generated 66 embeddings
+2026-03-23 18:44:08,626 - _semantic_engine - INFO - Adding 66 vectors to FAISS index...
+2026-03-23 18:44:08,893 - _semantic_engine - INFO - Added to FAISS index. Total: 122
+2026-03-23 18:44:08,949 - _semantic_engine - INFO - Indexing complete: 1 files, 66 chunks
+2026-03-23 18:46:12,707 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:46:13,275 - _semantic_engine - INFO - Found 122 results
+2026-03-23 18:46:21,001 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:46:21,149 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:46:21,756 - _semantic_engine - INFO - Found 122 results
+2026-03-23 18:46:29,634 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:46:37,235 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:46:37,514 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:46:44,858 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:46:50,594 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:46:56,955 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:48:05,002 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:48:05,755 - _semantic_engine - INFO - Found 122 results
+2026-03-23 18:48:12,048 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:48:12,056 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:48:12,248 - _semantic_engine - INFO - Found 122 results
+2026-03-23 18:48:19,670 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:48:32,720 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:48:39,837 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:48:46,515 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:49:27,811 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:49:28,470 - _semantic_engine - INFO - Found 122 results
+2026-03-23 18:49:34,647 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:49:34,651 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 18:49:34,903 - _semantic_engine - INFO - Found 122 results
+2026-03-23 18:49:40,866 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 18:51:44,331 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:51:44,595 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:56:55,188 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:56:55,480 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 18:58:26,529 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774281477597-Chemutai_G_BBA_2025.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0MjgxNDc3NTk3LUNoZW11dGFpX0dfQkJBXzIwMjUucGRmIiwiaWF0IjoxNzc0MjgxNTAxLCJleHAiOjE3NzQyODUxMDF9.3x6GfnU34IyQdMQr04MfRHR1f2dGj1Wj15wrrcVygaA "HTTP/1.1 200 OK"
+2026-03-23 18:58:30,867 - _semantic_engine - INFO - Processing PDF: Chemutai_G_BBA_2025.pdf
+2026-03-23 18:58:40,425 - _semantic_engine - INFO - Processed Chemutai_G_BBA_2025.pdf: 85 pages, 85 chunks
+2026-03-23 18:58:40,825 - _semantic_engine - INFO - Generating embeddings for 85 chunks...
+2026-03-23 18:59:43,706 - _semantic_engine - INFO - Generated 85 embeddings
+2026-03-23 18:59:43,710 - _semantic_engine - INFO - Adding 85 vectors to FAISS index...
+2026-03-23 18:59:43,923 - _semantic_engine - INFO - Added to FAISS index. Total: 207
+2026-03-23 18:59:43,961 - _semantic_engine - INFO - Indexing complete: 1 files, 85 chunks
+2026-03-23 19:01:58,953 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 19:01:59,269 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 19:02:08,066 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 19:02:08,433 - _semantic_engine - INFO - Found 160 results
+2026-03-23 19:02:10,735 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:02:10,899 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 19:02:10,986 - _semantic_engine - INFO - Found 160 results
+2026-03-23 19:02:13,344 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:02:18,854 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:02:21,369 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:02:23,830 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:02:50,269 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 19:02:50,437 - _semantic_engine - INFO - Found 160 results
+2026-03-23 19:02:53,330 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:02:53,340 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 19:02:53,419 - _semantic_engine - INFO - Found 160 results
+2026-03-23 19:02:55,958 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 19:03:18,513 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
