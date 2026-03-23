@@ -2064,3 +2064,85 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-03-23 16:40:11,821 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
 2026-03-23 16:45:14,512 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
 2026-03-23 16:45:15,081 - httpx - INFO - HTTP Request: POST https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/list/academic-docs "HTTP/2 200 OK"
+2026-03-23 17:40:48,818 - _semantic_engine - INFO - SemanticSearchEngine initialized (use_faiss: True)
+2026-03-23 17:40:48,862 - _semantic_engine - INFO - Initializing search engine...
+2026-03-23 17:40:48,863 - _semantic_engine - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-23 17:40:48,897 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-23 17:40:48,925 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-23 17:40:53,953 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:53,957 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-23 17:40:54,072 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-23 17:40:54,466 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:54,557 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-23 17:40:54,942 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:55,038 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-23 17:40:55,391 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:55,504 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-23 17:40:55,926 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:56,015 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-23 17:40:56,445 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:56,556 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-23 17:40:56,935 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-23 17:40:57,305 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:40:57,404 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-23 17:41:04,502 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:41:04,600 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-23 17:41:04,971 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:41:05,074 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-23 17:41:05,547 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-23 17:41:05,970 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-23 17:41:07,322 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 17:41:07,439 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-23 17:41:07,832 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-23 17:41:07,974 - _semantic_engine - INFO - Model loaded (dimension: 384, device: cpu)
+2026-03-23 17:41:07,974 - _semantic_engine - INFO - Setting up FAISS index...
+2026-03-23 17:41:07,976 - _semantic_engine - INFO - Creating new FAISS index (dimension: 384)
+2026-03-23 17:41:08,024 - _semantic_engine - INFO - FAISS index ready
+2026-03-23 17:41:08,024 - _semantic_engine - INFO - Stats updated: 0 chunks, 0 documents
+2026-03-23 17:41:08,025 - _semantic_engine - INFO - Search engine initialized successfully!
+2026-03-23 17:41:08,025 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:41:17,789 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:41:18,578 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:41:22,663 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:41:22,825 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:41:26,652 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:41:26,661 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:41:31,515 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:41:40,007 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:41:44,167 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:41:44,171 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:41:49,198 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:41:59,166 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:42:03,085 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:42:03,092 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:42:05,830 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/rest/v1/documents?select=file_path%2Ctitle%2Cauthor%2Csupervisor%2Cyear%2Clevel%2Cdepartment%2Cabstract "HTTP/2 200 OK"
+2026-03-23 17:42:41,855 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774276953806-Agaba_F_BSCEE_2025.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc2OTUzODA2LUFnYWJhX0ZfQlNDRUVfMjAyNS5wZGYiLCJpYXQiOjE3NzQyNzY5NTksImV4cCI6MTc3NDI4MDU1OX0.F7o-iALiUewbSzsJVNI2xzIom1DOVrtSW_CuQl056rc "HTTP/1.1 200 OK"
+2026-03-23 17:42:48,837 - backend.app.services - WARNING - Metadata extraction failed for D:\NLP_Project_1\University-Semantic-Search-System\NLP-Pipeline\NLP Data\backend\data\raw_pdfs\Agaba_F_BSCEE_2025.pdf: name 're' is not defined
+2026-03-23 17:43:23,012 - httpx - INFO - HTTP Request: GET https://wmgfztojmcberpyiyjfy.supabase.co/storage/v1/object/sign/academic-docs/8ed2cc0f-65c2-4eea-a6f2-d7e1096fe19e/1774276987235-Agoth_P_BSOGM_2024.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzdmYjFkYS05MzcwLTQ5OTUtYTM0YS0zYWJiZGMyZWM1MWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhY2FkZW1pYy1kb2NzLzhlZDJjYzBmLTY1YzItNGVlYS1hNmYyLWQ3ZTEwOTZmZTE5ZS8xNzc0Mjc2OTg3MjM1LUFnb3RoX1BfQlNPR01fMjAyNC5wZGYiLCJpYXQiOjE3NzQyNzY5OTgsImV4cCI6MTc3NDI4MDU5OH0.zRepeY2nkdNW-8i9Qtpc0fHIBuRt4kwSk6lzjYwHnOc "HTTP/1.1 200 OK"
+2026-03-23 17:43:29,258 - _semantic_engine - INFO - Processing PDF: Agoth_P_BSOGM_2024.pdf
+2026-03-23 17:43:30,993 - _semantic_engine - INFO - Processed Agoth_P_BSOGM_2024.pdf: 54 pages, 54 chunks
+2026-03-23 17:43:31,051 - _semantic_engine - INFO - Generating embeddings for 54 chunks...
+2026-03-23 17:44:04,483 - _semantic_engine - INFO - Generated 54 embeddings
+2026-03-23 17:44:04,486 - _semantic_engine - INFO - Adding 54 vectors to FAISS index...
+2026-03-23 17:44:04,520 - _semantic_engine - INFO - Switching to Flat index (only 54 vectors, need 100 for IVF)
+2026-03-23 17:44:05,059 - _semantic_engine - INFO - Added to FAISS index. Total: 54
+2026-03-23 17:44:05,176 - _semantic_engine - INFO - Indexing complete: 1 files, 54 chunks
+2026-03-23 17:44:05,233 - backend.app.services - WARNING - Metadata extraction failed for D:\NLP_Project_1\University-Semantic-Search-System\NLP-Pipeline\NLP Data\backend\data\raw_pdfs\Agoth_P_BSOGM_2024.pdf: name 're' is not defined
+2026-03-23 17:45:56,589 - _semantic_engine - INFO - Searching for: 'research'
+2026-03-23 17:45:58,773 - _semantic_engine - INFO - Found 54 results
+2026-03-23 18:13:42,564 - _semantic_engine - INFO - SemanticSearchEngine initialized (use_faiss: True)
+2026-03-23 18:13:42,600 - _semantic_engine - INFO - SemanticSearchEngine initialized (use_faiss: True)
+2026-03-23 18:13:42,684 - _semantic_engine - INFO - Initializing search engine...
+2026-03-23 18:13:42,684 - _semantic_engine - INFO - Initializing search engine...
+2026-03-23 18:13:42,685 - _semantic_engine - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-23 18:13:42,687 - _semantic_engine - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-23 18:13:42,786 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-23 18:13:42,787 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-23 18:13:42,791 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-23 18:13:42,797 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-23 18:13:45,405 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:45,494 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:45,915 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:46,003 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-23 18:13:46,434 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-23 18:13:46,509 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
