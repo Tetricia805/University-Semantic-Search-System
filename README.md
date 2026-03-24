@@ -1,35 +1,37 @@
-**University Academic Semantic Search System**
+# **University Academic Semantic Search System**
 
 A production-grade, deployable semantic search and analytics platform for university academic documents (theses, dissertations, proposals, course outlines, and reports.
 
 This system enables meaning-based retrieval, document similarity recommendations, and academic knowledge reuse across departments.
 
-Project Overview
+## Project Overview
 
 Universities store large volumes of unstructured academic documents in PDF format. Traditional search systems rely on filename or keyword matching, which often fails to capture semantic meaning.
 
 This project implements a Transformer-based Semantic Search System that allows users to:
 
-Search academic documents using natural language
+- Search academic documents using natural language
 
-Retrieve semantically relevant results (not just keyword matches)
+- Retrieve semantically relevant results (not just keyword matches)
 
-Discover similar or related academic works
+- Discover similar or related academic works
 
-Filter results by department, year, or document type
+- Filter results by department, year, or document type
 
-Analyze corpus characteristics
+- Analyze corpus characteristics
 
-System Architecture
+## System Architecture
 
 The system consists of three main components:
 
-1️ NLP Indexing Pipeline
-2️ Semantic Search Engine (Online Retrieval)
-3️ Web Application (User Interface)
+1️. **NLP Indexing Pipeline**
 
-Architecture Flow
+2️. **Semantic Search Engine (Online Retrieval)**
 
+3️. **Web Application (User Interface)**
+
+### Architecture Flow
+```text
 PDF Documents
       ↓
 Text Extraction
