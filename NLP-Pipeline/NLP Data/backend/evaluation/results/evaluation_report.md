@@ -1,7 +1,5 @@
 # Semantic Search Model Evaluation Report
 
-**Generated (UTC):** 2026-04-13T19:34:50.519060+00:00
-
 ## 1. Overview
 
 This report evaluates the **University Semantic Search System** retrieval quality by running
